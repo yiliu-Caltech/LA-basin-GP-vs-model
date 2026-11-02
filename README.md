@@ -117,9 +117,6 @@ A **5% profile-level test set** was constructed by withholding all measurements 
 | Stationary geological kernel | 0.243 |
 | Localized spatial kernel | 0.399 |
 
-The composite model yields the lowest reported error. The stationary component accounts for much of the transferability to unseen sites, while the spatial component improves the fit to localized deviations when neighboring measurements are available. These are **manuscript-reported results**, not metrics recalculated by this README.
-
-![Composite-kernel predictions](Data/Figure/ex_com.png)
 
 ### Residual diagnostics
 
