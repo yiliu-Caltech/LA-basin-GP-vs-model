@@ -1,27 +1,160 @@
-# Gaussian Process of Shallow Seismic Velocity Models in the Los Angeles Basin
+# A Data-Driven, Multi-Scale Sediment Velocity Model for Southern California
 
-A research workflow for refining shallow subsurface shear-wave velocity (Vs) estimates in the Los Angeles Basin using Gaussian Process (GP) regression and existing velocity-model information from the **SCEC Unified Community Velocity Model (UCVM)** ecosystem.
+**Gaussian-process refinement of near-surface shear-wave velocity in the Los Angeles Basin using CVM-S4.26 as a regional reference model.**
 
-The repository includes velocity-data preprocessing, two-stage GP model training, validation, residual analysis, and applications to selected sites, vertical cross-sections, and regional Vs30 mapping.
+This repository contains research notebooks, custom [GPyTorch](https://gpytorch.ai/) covariance kernels, model checkpoints, preprocessing utilities, and visualization workflows supporting the study **“A data-driven, multi-scale sediment velocity model for Southern California”** by Yi Liu, Grigorios Lavrentiadis, and Domniki Asimaki (manuscript dated October 15, 2026).
 
-## Overview
+The framework integrates geological attributes and local spatial information to estimate observational corrections to the regional Community Velocity Model (CVM), rather than replacing its large-scale structure. It supports predictions of individual shear-wave velocity profiles, two-dimensional geological cross-sections, and basin-wide $V_{S30}$.
 
-Accurate near-surface shear-wave velocity estimates are important for characterizing site conditions and seismic wave propagation. This project develops a data-driven adjustment workflow that integrates measured velocity profiles and sonic-log information with baseline UCVM predictions. GP regression models structured discrepancies between measurements and the reference model, with spatial covariance and feature-based components represented in custom GPyTorch kernels.
+> **Research software:** This repository is a collection of experiment notebooks and supporting scripts, not a pip-installable package or a standalone UCVM distribution. The manuscript is provided as research context; its publication status and DOI have not been verified.
 
-The code is organized as Jupyter notebooks for reproducible research experiments, with supporting Python modules for kernels, model utilities, plotting, and spatial-data processing. **This is a research codebase, not a packaged or fully automated UCVM replacement.**
+## Highlights
 
-## Features
+- **Multi-source observations:** 658 geotechnical $V_S$ profiles from the Web Portal Shear-Wave Velocity Profile Database (VPDB) and 33 deeper sonic-log profiles.
+- **Reference-model correction:** Model $\ln(V_S)-\ln(V_S^{\mathrm{CVM}})$ relative to **CVM-S4.26**, so weakly constrained predictions revert toward the regional model.
+- **Composite covariance:** Combine a geological/basin-aware stationary kernel with a localized **3D anisotropic Matérn-$5/2$** kernel.
+- **Two-stage optimization:** Fit the stationary component first, freeze it, then optimize the spatial component using group-held-out predictive likelihoods.
+- **Profile-level evaluation:** Hold out complete velocity profiles to test generalization at new locations, instead of randomly withholding depth samples from the same profiles.
+- **Regional applications:** Compare site profiles and six cross-sections, and produce a continuous $V_{S30}$ map across the Los Angeles Basin.
 
-- Clean and harmonize shear-wave velocity measurements, layer data, site metadata, and sonic logs.
-- Associate observations with basin geometry and query-derived UCVM attributes.
-- Train GP models in two stages using custom covariance kernels.
-- Model three-dimensional spatial correlation with an anisotropic Matérn kernel.
-- Explore group-aware training objectives using a leave-group-out pseudo-likelihood.
-- Validate predictions against available measurements and inspect model residuals.
-- Generate comparisons at selected locations, along cross-sections, and on Vs30 maps.
-- Reuse included fitted model checkpoints and input scalers for downstream notebook analyses.
+## Scientific Motivation
 
-## Repository Structure
+Regional Community Velocity Models are widely used for earthquake-wave simulations and seismic-hazard studies, but their shallow sedimentary velocities can be overly smooth and weakly constrained by near-surface measurements. This is particularly important in the Los Angeles Basin, where low-velocity sediments and complicated basin geometry affect ground-motion amplification and duration.
+
+The goal of this work is to preserve the physically meaningful, basin-scale structure of **CVM-S4.26** while correcting its systematic shallow-velocity discrepancies using independent velocity measurements. Gaussian processes offer a flexible, probabilistic description of these corrections, with covariance structures designed to share information across geologically similar sites and nearby spatial locations.
+
+## Observations and Preprocessing
+
+| Input | Amount | Primary role |
+| --- | ---: | --- |
+| Geotechnical $V_S$ profiles (VPDB) | **658 profiles** | Constrain near-surface velocity gradients; most investigate depths shallower than 100 m |
+| Borehole sonic logs | **33 profiles** | Constrain deeper basin structure, extending beyond 2 km in some cases |
+| **CVM-S4.26** | Regional 3D model | Provide baseline $V_P$, $V_S$, density, and reference $V_S$ estimates |
+| Basin and surface attributes | Location-dependent | Provide basin identity, surface elevation, and $Z_{2.5}$ (depth to $V_S=2.5$ km/s) |
+
+The manuscript describes sonic-log preparation using a moving-median filter and a spline expansion with **100 basis functions**. Sonic logs primarily measure $V_P$; their estimated $V_S$ values are obtained using Poisson's ratio inferred from collocated CVM-S4.26 $V_P/V_S$ values. Spatial and geological predictors are normalized before GP fitting.
+
+![Locations and velocity-data preparation](Data/Figure/vs_data_cleaned.png)
+
+## Model Formulation
+
+### 1. Logarithmic velocity residuals
+
+Instead of learning $V_S$ directly, the model learns
+
+$$
+\epsilon(\mathbf{x})=\ln V_S^{\mathrm{obs}}(\mathbf{x})-\ln V_S^{\mathrm{CVM}}(\mathbf{x}),
+\qquad \epsilon(\mathbf{x})\sim\mathcal{GP}\left(0,k(\mathbf{x},\mathbf{x}')\right).
+$$
+
+The corrected velocity at a prediction location is
+
+$$
+\widehat V_S(\mathbf{x})=V_S^{\mathrm{CVM}}(\mathbf{x})\exp\bigl(\mu_\epsilon(\mathbf{x})\bigr),
+$$
+
+where $\mu_\epsilon$ is the posterior mean of the log-residual field. The **zero-mean residual prior** makes the correction tend toward zero when there is little relevant observational support.
+
+### 2. Multi-scale composite kernel
+
+The full covariance model adds two complementary components:
+
+$$
+k(\mathbf{x},\mathbf{x}')=k_{\mathrm{stat}}(\mathbf{x},\mathbf{x}')+k_{\mathrm{spatial}}(\mathbf{x},\mathbf{x}').
+$$
+
+**Stationary geological component.** The broad, transferable correction depends on geological similarity, basin membership, and depth:
+
+$$
+\begin{aligned}
+k_{\mathrm{stat}}(\mathbf{x},\mathbf{x}')={}&
+\sigma_r^2\,k_{Z_{2.5}}(\mathbf{x},\mathbf{x}')
+\,k_{e_s}(\mathbf{x},\mathbf{x}')\,k_d(d,d')\\
+&+\sigma_b^2\,\mathbb{1}[b(\mathbf{x})=b(\mathbf{x}')]
+\,k_d(d,d').
+\end{aligned}
+$$
+
+Here $Z_{2.5}$ is the depth to a shear-wave velocity of 2.5 km/s, $e_s$ is surface elevation, $b$ is basin identity, and $d$ is depth below the ground surface. The continuous geological and depth terms use RBF covariance functions. The basin-identity term allows profiles in the same mapped basin to share an additional correction.
+
+**Localized spatial component.** An anisotropic Matérn-$5/2$ kernel models residual heterogeneity that depends on three-dimensional separation:
+
+$$
+r=\sqrt{\frac{(X-X')^2+(Y-Y')^2}{\ell_h^2}
++\frac{(d-d')^2}{\ell_{d,\mathrm{sp}}^2}},
+$$
+
+$$
+k_{\mathrm{spatial}}(\mathbf{x},\mathbf{x}')
+=\sigma_m^2\left(1+\sqrt{5}r+\frac{5}{3}r^2\right)e^{-\sqrt{5}r}.
+$$
+
+The horizontal and vertical correlation lengths are learned separately. Together, the two kernel components account for **regional geological trends** and **localized corrections** without forcing one component to explain both scales.
+
+### 3. Two-stage training and group-based loss
+
+The paper uses a two-stage training strategy:
+
+1. **Stage 1 — stationary kernel:** fit geological/basin-dependent covariance while imposing an observational noise variance floor ($\sigma_n^2\ge 0.1$) and a variance-budget constraint during this stage. Held-out groups are **spatial clusters** of profiles.
+2. **Stage 2 — spatial kernel:** freeze the fitted stationary component and optimize the localized spatial kernel. Held-out groups are **entire individual velocity profiles**.
+
+Both stages use a leave-one-group-out (LOGO) negative log predictive likelihood,
+
+$$
+\mathcal L_{\mathrm{LOGO}}(\theta)
+=-\sum_{g=1}^{M}\log p(\boldsymbol\epsilon_g\mid
+\mathbf X_g,\mathcal D_{-g},\theta).
+$$
+
+The paper derives an efficient evaluation based on blocks of the full covariance **precision matrix**, avoiding a separate GP fit for each omitted group. The related implementation is in [`Model_training/newloss.py`](Model_training/newloss.py); notebook-specific choices determine how this objective is applied.
+
+## Evaluation and Results
+
+### Generalization to held-out profiles
+
+A **5% profile-level test set** was constructed by withholding all measurements from randomly selected profiles. The following RMSE values are reported for prediction errors in **log velocity space** in the accompanying manuscript:
+
+| Kernel configuration | Held-out-profile RMSE |
+| --- | ---: |
+| **Composite (stationary + spatial)** | **0.235** |
+| Stationary geological kernel | 0.243 |
+| Localized spatial kernel | 0.399 |
+
+The composite model yields the lowest reported error. The stationary component accounts for much of the transferability to unseen sites, while the spatial component improves the fit to localized deviations when neighboring measurements are available. These are **manuscript-reported results**, not metrics recalculated by this README.
+
+![Composite-kernel predictions](Data/Figure/ex_com.png)
+
+### Residual diagnostics
+
+The manuscript reports prediction errors approximately centered around zero over the sampled depth and $V_{S30}$ ranges, with larger near-surface dispersion reflecting unresolved shallow heterogeneity.
+
+![Residual error versus depth](Data/Figure/residual_depth.png)
+
+![Residual error versus Vs30](Data/Figure/residual_vs30.png)
+
+### Individual site predictions
+
+The site-scale notebooks compare GP-corrected profiles against the original CVM-S4.26 prediction and other available reference profiles. The manuscript also discusses posterior prediction intervals to convey uncertainty.
+
+![Predicted site velocity profile](Data/Figure/point1.png)
+
+### Six geological cross-sections
+
+The paper evaluates **six sections** across different basin settings. For each section, its reported prediction grid uses **100 horizontal sample points** and **5 m vertical increments down to 500 m**. The GP results are compared with CVM-S4.26 and a Geotechnical Layer Model (GTL). The analysis emphasizes shallow low-velocity layers, smoother spatial continuity, and preservation of deeper basin trends.
+
+![Cross-section velocity comparison](Data/Figure/Cross_sections_1_.png)
+
+### Regional $V_{S30}$ mapping
+
+The study generates a basin-wide grid with **500 m horizontal spacing** and **2.5 m vertical spacing** for near-surface predictions, then computes the travel-time-average velocity in the upper 30 m:
+
+$$
+V_{S30}=\frac{30\ \mathrm{m}}{\sum_i h_i/V_{S,i}}.
+$$
+
+The manuscript compares these predictions with the California $V_{S30}$ model of **Wills et al. (2015)** and reports broadly consistent regional patterns with more localized structure in the GP-derived map. The relevant workflows are in `Application_vs30map/`.
+
+## Repository Layout
 
 ```text
 .
@@ -37,8 +170,7 @@ The code is organized as Jupyter notebooks for reproducible research experiments
 │   ├── pylib_gp_twoscale.py
 │   └── *.pth, *.pkl
 ├── Model_validation/
-│   ├── Model_validation.ipynb
-│   └── pylib_gp_*.py
+│   └── Model_validation.ipynb
 ├── Residual/
 │   └── Model_residual.ipynb
 ├── Application_selected_locations/
@@ -59,114 +191,58 @@ The code is organized as Jupyter notebooks for reproducible research experiments
     └── Figure/
 ```
 
-Directory and notebook names are shown exactly as they occur in the source archive, including the original spelling of `Appliction_cross_sections` and `Model_trainning_*`.
+The original directory names are preserved, including `Appliction_cross_sections` and `Model_trainning_*`.
 
-## Methodology
+## Environment and Installation
 
-### Data preparation
-
-The preprocessing notebooks organize measured Vs points and layers, borehole/sonic-log data, site metadata, basin membership, and baseline UCVM inputs/outputs. The notebooks perform data cleaning, collocated-profile inspection, and feature preparation for model fitting.
-
-### Gaussian Process model
-
-The modeling code uses [PyTorch](https://pytorch.org/) and [GPyTorch](https://gpytorch.ai/). One custom covariance component uses a 3D anisotropic Matérn kernel with the horizontal and vertical distances scaled separately:
-
-$$
-r = \sqrt{\frac{(x-x')^2+(y-y')^2}{\ell_{xy}^2} + \frac{(z-z')^2}{\ell_z^2}}, \qquad \ell_z=\alpha\ell_{xy}.
-$$
-
-For Matérn smoothness $\nu=5/2$, the kernel takes the form
-
-$$
-k(r)=\sigma_f^2\left(1+\sqrt{5}r+\frac{5}{3}r^2\right)e^{-\sqrt{5}r}.
-$$
-
-Other custom kernel terms and modeling choices are defined in `Model_training/pylib_gp_twoscale.py` and `Model_training/pylib_gp_noconst.py`. Check the implementation and notebook settings for the exact model configuration used in each experiment.
-
-### Training and validation
-
-The two training notebooks cover hyperparameter estimation and model refinement. `Model_training/newloss.py` implements `LeaveGroupOutPseudoLikelihood`, an objective based on conditional likelihoods for held-out observation groups. `Model_validation/Model_validation.ipynb` evaluates the fitted GP and reports prediction-error metrics including RMSE.
-
-## Installation
-
-Use a Python environment with Jupyter support. Core dependencies observed in the source include:
+The notebooks primarily use Python, Jupyter, [PyTorch](https://pytorch.org/), and [GPyTorch](https://gpytorch.ai/), together with scientific computing and geospatial libraries. A starting environment is:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+python -m pip install --upgrade pip
 pip install numpy pandas scipy matplotlib torch gpytorch scikit-learn \
-    jupyter pyproj geopandas shapely rasterio cartopy networkx openpyxl
-```
-
-Additional packages may be required by particular notebooks. The archive does **not** provide a pinned environment/lockfile, so exact dependency versions and compatibility have not been verified. Some optional comparison scripts import external modules not bundled with this repository.
-
-## Usage
-
-Run notebooks from their corresponding folders so their relative paths resolve correctly. The project is primarily notebook-driven; there is no single end-to-end command-line entry point.
-
-**Recommended workflow:**
-
-1. **Preprocess observations:** begin with `Preprocessing/Cleaning_vs_data.ipynb`; use `Log-test.ipynb` for sonic logs and `Assign_basinid.ipynb` for basin association where needed.
-2. **Train the model:** run `Model_training/Model_trainning_step1.ipynb` followed by `Model_training/Model_trainning_step2.ipynb`. Review all input paths and hyperparameter settings before execution.
-3. **Evaluate:** use `Model_validation/Model_validation.ipynb` and `Residual/Model_residual.ipynb`.
-4. **Generate applications:** use `Application_selected_locations/`, `Appliction_cross_sections/`, and `Application_vs30map/` for location-based predictions, section plots, and Vs30 maps.
-5. **Visualize results:** consult `Plotting/Plotting.ipynb` and figures under `Data/Figure/`.
-
-Launch the notebook interface with:
-
-```bash
+    jupyterlab pyproj geopandas shapely rasterio cartopy networkx openpyxl
 jupyter lab
 ```
 
-### Using pretrained models
+**Important:** The source archive does not include a verified lockfile or pinned package versions. This command is a practical starting point, **not a guaranteed reproducible environment**. Certain analyses depend on local datasets, geospatial files, or UCVM outputs.
 
-Several analysis folders include files such as:
+## Suggested Research Workflow
 
-```text
-ucvm_la_basin_adj_model_frozen_newloss.pth
-ucvm_la_basin_adj_scaler_frozen.pkl
-```
+1. **Preprocess data:** `Preprocessing/Cleaning_vs_data.ipynb`, `Log-test.ipynb`, and `Assign_basinid.ipynb`.
+2. **Fit stage 1:** `Model_training/Model_trainning_step1.ipynb` for stationary covariance hyperparameters.
+3. **Fit stage 2:** `Model_training/Model_trainning_step2.ipynb` for spatial covariance hyperparameters with the stationary component fixed.
+4. **Evaluate:** `Model_validation/Model_validation.ipynb` and `Residual/Model_residual.ipynb`.
+5. **Predict site profiles:** notebooks in `Application_selected_locations/`.
+6. **Predict sections:** notebooks in `Appliction_cross_sections/` for GP and GTL comparisons.
+7. **Generate $V_{S30}$ maps:** notebooks in `Application_vs30map/`.
+8. **Plot outputs:** `Plotting/Plotting.ipynb` and figures in `Data/Figure/`.
 
-These are serialized model parameters and feature-scaling objects used by the notebooks. Match each checkpoint with the model class and feature preprocessing used to create it. Only load `.pth` and `.pkl` files from sources you trust.
+Run the notebooks with attention to their existing relative paths and data assumptions; there is **no single verified end-to-end CLI command**. The repository contains `.pth` checkpoints and `.pkl` feature scalers. Keep model definitions, feature ordering, and fitted scalers consistent when loading them; only unpickle files from trusted sources.
 
-## Example Results
+## Reproducibility and Data Availability
 
-The repository contains figures that can be viewed directly on GitHub:
+- The archive includes experiment artifacts, figures, input files, and model checkpoints, but a clean installation may still require **UCVM** and underlying third-party geophysical datasets.
+- Large rasters, checkpoints, and intermediate results may exceed GitHub web upload limits; consider **Git LFS** or separate archived releases.
+- Avoid committing `__pycache__/`, `.ipynb_checkpoints/`, `.DS_Store`, virtual environments, or temporary outputs.
+- **Check rights before redistribution:** VPDB profiles, sonic logs, CVM products, and California $V_{S30}$ reference grids may have distinct access, attribution, or license requirements.
+- The results summarized above are from the accompanying manuscript. Users seeking exact reproduction should verify dataset versions, preprocessing, group splits, random seeds, checkpoint settings, and local path configurations.
 
-### Velocity measurements
+## Citation
 
-![Cleaned velocity data](Data/Figure/vs_data_cleaned.png)
+If you use this research, cite the associated manuscript when its final bibliographic details are available:
 
-### Spatial residual patterns
+> Liu, Y., Lavrentiadis, G., and Asimaki, D. (2026). *A data-driven, multi-scale sediment velocity model for Southern California*. Manuscript dated October 15, 2026. **Publication venue/DOI to be updated.**
 
-![Spatial residuals](Data/Figure/residual_depth.png)
+Please also cite the source observational datasets, the applicable SCEC/UCVM velocity model, and comparison models in accordance with their providers' requirements.
 
-### Cross-section comparison
-
-![Cross-section result](Data/Figure/Cross_sections_1_.png)
-
-### Selected location
-
-![Location prediction](Data/Figure/point1.png)
-
-These images are provided as existing project artifacts, not regenerated by the README.
-
-## Data and Reproducibility Notes
-
-- The supplied archive contains input data, geospatial rasters, intermediate text outputs, figures, and saved models. Some files are large; GitHub's file-size limits may require **Git LFS**, external data hosting, or a smaller public release.
-- UCVM input/output files in `Data/Vel_data/` appear to be precomputed. Reproducing the original UCVM queries may require a separately installed/configured UCVM environment.
-- Several notebooks refer to relative paths and local research assumptions. Update those references for your setup.
-- Third-party velocity measurements, model products, GIS layers, and Vs30 map products can have distinct licenses or citation requirements. Confirm redistribution rights before publishing the full `Data/` directory.
-- The repository currently does not include an automated test suite or fully pinned requirements.
-
-## References
+## Related Resources
 
 - [SCEC Unified Community Velocity Model (UCVM)](https://github.com/SCECcode/UCVM)
 - [GPyTorch documentation](https://docs.gpytorch.ai/)
 - [PyTorch documentation](https://pytorch.org/docs/stable/index.html)
 
-For academic reuse, cite the underlying velocity datasets, UCVM products, and related research publications as appropriate. Add a project-specific paper citation here if one is available.
-
 ## License
 
-No license was specified in the provided archive. Add a `LICENSE` file and clarify any third-party data licenses before public redistribution.
+No license was identified in the supplied archive. Add an appropriate `LICENSE` file after confirming that the code and redistributed third-party data can be released under the selected terms.
