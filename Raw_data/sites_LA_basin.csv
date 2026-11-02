@@ -1,0 +1,864 @@
+id,site_name,site_latitude,site_longitude,site_elevation,site_country,site_state,site_city,slope_gradient,slope_resolution,terrain_class
+6,La Cienega,34.0364,-118.378,29,United States of America,California,NULL,0.00775219,30 arc-sec,4
+11,Potrero Canyon (Valley Center),34.3952,-118.6641,318,United States of America,California,NULL,0.0340521,30 arc-sec,3
+12,Tarzana,34.1605,-118.5353,260,United States of America,California,NULL,0.0350083,30 arc-sec,12
+13,Sylmar Converter East,34.3108,-118.4808,389,United States of America,California,NULL,0.0301271,30 arc-sec,7
+14,ETEC (RD7),34.2314,-118.715,551,United States of America,California,NULL,0.0620157,30 arc-sec,7
+15,Receiver Station East,34.1772,-118.3588,192,United States of America,California,NULL,0.0114431,30 arc-sec,8
+16,Wadsworth VA North,34.0544,-118.4541,93,United States of America,California,NULL,0.0303729,30 arc-sec,3
+17,Wadsworth VA South,34.0497,-118.4494,66,United States of America,California,NULL,0.0166699,30 arc-sec,3
+18,Sylmar Converter East #2,34.3129,-118.4818,389,United States of America,California,NULL,0.0301271,30 arc-sec,7
+19,Brentwood VA Hospital,34.0632,-118.4633,147,United States of America,California,NULL,0.0274437,30 arc-sec,3
+20,Colton Interchange West,34.0636,-117.298,288,United States of America,California,NULL,0.0108664,30 arc-sec,8
+21,Colton Interchange East,34.0637,-117.2898,303,United States of America,California,NULL,0.00828838,30 arc-sec,8
+22,Obregon Park,34.037,-118.1787,90,United States of America,California,NULL,0.0193972,30 arc-sec,8
+23,Long Beach Water Treatment Plant,33.79802,-118.0893,1,United States of America,California,NULL,0,30 arc-sec,16
+24,Cerritos Police Building,33.8821,-118.0977,10,United States of America,California,NULL,0.00504361,30 arc-sec,12
+25,Cerritos College Gymnasium,33.8866,-118.0942,14,United States of America,California,NULL,0.00504361,30 arc-sec,16
+26,Cerritos College Physical Sciences,33.8859,-118.0979,14,United States of America,California,NULL,0.00504361,30 arc-sec,16
+27,Corps of Engineers Station,34.0322,-118.0532,67,United States of America,California,NULL,0.0055065,30 arc-sec,8
+28,Hoover School,33.9849,-118.0298,161,United States of America,California,NULL,0.0812599,30 arc-sec,12
+29,Lincoln School,34.0904,-118.0939,108,United States of America,California,NULL,0.0106855,30 arc-sec,8
+30,Lincoln School - Whittier,33.9854,-118.0415,118,United States of America,California,NULL,0.0716448,30 arc-sec,8
+31,Los Alisos,33.8956,-118.0852,20,United States of America,California,NULL,0.00461734,30 arc-sec,16
+32,Olive Jr High School,34.1007,-117.975,112,United States of America,California,NULL,0.0114812,30 arc-sec,8
+33,Santa Anita Golf Course,34.131,-118.0316,131,United States of America,California,NULL,0.0144709,30 arc-sec,4
+34,San Bernardino Fire Station,34.1054,-117.2829,315,United States of America,California,NULL,0.00845382,30 arc-sec,8
+35,South Western Academy,34.1153,-118.1314,171,United States of America,California,NULL,0.0192586,30 arc-sec,4
+36,St Paul High School,33.9516,-118.0546,44,United States of America,California,NULL,0.00631138,30 arc-sec,12
+43,Devil's Punch Bowl,34.4252,-117.8629,1320,United States of America,California,NULL,0.0516647,30 arc-sec,4
+46,Garvey Reservoir,34.048,-118.1119,160,United States of America,California,NULL,0.00623294,30 arc-sec,8
+110,Magnolia,33.7703,-118.1976,1,United States of America,California,NULL,0,30 arc-sec,12
+111,First Lutheran,33.7784,-118.1853,1,United States of America,California,NULL,0.00157423,30 arc-sec,16
+112,Terminal Island,33.7531,-118.2537,1,United States of America,California,NULL,0,30 arc-sec,11
+113,Lakewood Golf Course,33.8328,-118.1545,25,United States of America,California,NULL,0.00431965,30 arc-sec,16
+114,L.A. Fire Station 105,33.8595,-118.2167,30,United States of America,California,NULL,0.00499642,30 arc-sec,12
+115,Compton Airport,33.8889,-118.2387,27,United States of America,California,NULL,0.00116122,30 arc-sec,12
+116,Compton Civic Center,33.8928,-118.2245,29,United States of America,California,NULL,0.00485961,30 arc-sec,12
+117,Holiday Inn,34.2142,-118.4726,235,United States of America,California,NULL,0.00963638,30 arc-sec,8
+118,Veterans Hospital,33.777,-118.1195,1,United States of America,California,NULL,0.00176004,30 arc-sec,8
+119,Newport Beach SBDP 2,33.6331,-117.9576,0,United States of America,California,NULL,0,30 arc-sec,16
+120,Katella School,33.825,-117.8259,104,United States of America,California,NULL,0.0288037,30 arc-sec,12
+121,St. Judes Hospital,33.8964,-117.9264,78,United States of America,California,NULL,0.0188985,30 arc-sec,8
+122,Rowland Heights,33.9889,-117.8901,149,United States of America,California,NULL,0.0191371,30 arc-sec,4
+123,El Monte Court House,34.0711,-118.0303,83,United States of America,California,NULL,0.00564055,30 arc-sec,8
+124,Verdugo Park,34.1703,-118.2312,243,United States of America,California,NULL,0.0258708,30 arc-sec,3
+125,Twentieth Century,34.0503,-118.4134,64,United States of America,California,NULL,0.00907545,30 arc-sec,4
+126,Upper Van Norman Dam,34.3139,-118.492,412,United States of America,California,NULL,0.0248153,30 arc-sec,3
+127,Pacoima Memorial Hospital,34.2828,-118.384,365,United States of America,California,NULL,0.0583119,30 arc-sec,4
+128,Sylmar High School,34.3097,-118.4401,402,United States of America,California,NULL,0.0352614,30 arc-sec,4
+129,Mission Hills P.O.,34.2578,-118.4651,274,United States of America,California,NULL,0.00948389,30 arc-sec,4
+130,Eton School,34.1942,-118.5959,243,United States of America,California,NULL,0.000763614,30 arc-sec,4
+131,Camarillo State Hospital,34.185,-119.0365,29,United States of America,California,NULL,0.00271325,30 arc-sec,8
+132,Pacific Missile Test Center,34.1131,-119.114,5,United States of America,California,NULL,0,30 arc-sec,16
+133,Ventura County Airport,34.2003,-119.1993,5,United States of America,California,NULL,0.00405867,30 arc-sec,16
+134,Mandalay Beach,34.2039,-119.2495,1,United States of America,California,NULL,0,30 arc-sec,18
+136,Bard Sanitarium,34.2808,-119.2543,58,United States of America,California,NULL,0.0658946,30 arc-sec,1
+137,Camarillo State Hospital,34.1639,-119.0387,59,United States of America,California,NULL,0.0139673,30 arc-sec,12
+138,Marina del Rey,33.9739,-118.4567,3,United States of America,California,NULL,0,30 arc-sec,18
+139,Westminster,33.752,-118.0128,6,United States of America,California,NULL,0.00513669,30 arc-sec,16
+140,Burbank Fire Station,34.1806,-118.3051,182,United States of America,California,NULL,0.033413,30 arc-sec,4
+141,Shellmaker Island,33.6208,-117.8926,1,United States of America,California,NULL,0.000190904,30 arc-sec,11
+142,Cypress College,33.8281,-118.0231,9,United States of America,California,NULL,0.00459757,30 arc-sec,16
+143,Ventura Pistol Range,34.2897,-119.2909,121,United States of America,California,NULL,0.0517856,30 arc-sec,3
+144,Sierra Linda School,34.2258,-119.1882,17,United States of America,California,NULL,0.00507243,30 arc-sec,8
+145,San Miguel School,34.1769,-119.1857,1,United States of America,California,NULL,0,30 arc-sec,16
+146,Alta Vista Park,33.8295,-118.3795,42,United States of America,California,NULL,0.0236327,30 arc-sec,18
+147,Seal Beach Weapons Station,33.7456,-118.0859,1,United States of America,California,NULL,0,30 arc-sec,16
+148,Ridgeline Water Tank,33.9867,-117.8167,298,United States of America,California,NULL,0.0197103,30 arc-sec,3
+149,Diamond Bar,33.982,-117.8195,304,United States of America,California,NULL,0.0183903,30 arc-sec,7
+150,Sky Terrace,34.2914,-118.4051,365,United States of America,California,NULL,0.0550547,30 arc-sec,4
+151,Sylmar Nursery,34.318,-118.432,446,United States of America,California,NULL,0.0566929,30 arc-sec,3
+152,Hilltop House O.V.,34.3303,-118.4523,553,United States of America,California,NULL,0.121892,30 arc-sec,3
+153,Cedar Hills Nursery,34.1618,-118.5341,260,United States of America,California,NULL,0.0350083,30 arc-sec,12
+154,Cal State Northridge,34.2394,-118.5234,260,United States of America,California,NULL,0.0147293,30 arc-sec,4
+155,Sylmar Park,34.3094,-118.4479,396,United States of America,California,NULL,0.0312021,30 arc-sec,4
+166,Alhambra,34.0875,-118.1509,148,United States of America,California,NULL,0.0172871,30 arc-sec,7
+167,Vernon,33.9967,-118.1931,41,United States of America,California,NULL,0.00652991,30 arc-sec,12
+168,Los Angeles - Olive,34.0517,-118.2512,118,United States of America,California,NULL,0.00877534,30 arc-sec,7
+169,Los Angeles - Hill,34.0503,-118.2501,118,United States of America,California,NULL,0.00877534,30 arc-sec,7
+170,Hollywood Storage,34.087,-118.3384,95,United States of America,California,NULL,0.0145788,30 arc-sec,4
+171,Santa Monica - Wilshire,34.0364,-118.4787,63,United States of America,California,NULL,0.0184259,30 arc-sec,3
+172,Tishman Airport Center,33.9567,-118.382,29,United States of America,California,NULL,0.000539957,30 arc-sec,11
+173,Hyperion,33.9264,-118.4323,17,United States of America,California,NULL,0,30 arc-sec,18
+174,Devonshire Police Station,34.2553,-118.5315,291,United States of America,California,NULL,0.0179094,30 arc-sec,4
+175,Olive View,34.3245,-118.4484,424,United States of America,California,NULL,0.0554252,30 arc-sec,3
+176,Mulholland Jr High School,34.1925,-118.507,220,United States of America,California,NULL,0.00666797,30 arc-sec,8
+177,Castaic,34.5161,-118.6073,364,United States of America,California,NULL,0.0626635,30 arc-sec,1
+178,Camp Munz,34.6512,-118.4813,913,United States of America,California,NULL,0.0360808,30 arc-sec,1
+214,Castaic Old Ridge,34.5561,-118.4909,718,United States of America,California,NULL,0.115853,30 arc-sec,1
+215,Elizabeth Lake,34.5708,-118.5606,502,United States of America,California,NULL,0.0678296,30 arc-sec,1
+216,Warm Springs Camp,34.6083,-118.5593,609,United States of America,California,NULL,0.0793224,30 arc-sec,1
+220,Colton S.C.E.,34.0597,-117.3139,287,United States of America,California,NULL,0.0140765,30 arc-sec,8
+221,Caltech Athenaeum,34.136,-118.1226,217,United States of America,California,NULL,0.0239658,30 arc-sec,4
+222,Caltech Old Seismology Lab,34.1475,-118.172,301,United States of America,California,NULL,0.0458268,30 arc-sec,3
+223,Griffith Observatory,34.11816,-118.30024,265,United States of America,California,NULL,0.0861381,30 arc-sec,12
+224,Palos Verdes,33.8003,-118.3887,58,United States of America,California,NULL,0,30 arc-sec,18
+264,Rinaldi Receiving Station,34.281,-118.478,301,United States of America,California,NULL,0.0333645,30 arc-sec,4
+265,White Oak Church,34.2081,-118.518,227,United States of America,California,NULL,0.00651594,30 arc-sec,8
+266,Sherman Oaks Park,34.1607,-118.4403,213,United States of America,California,NULL,0,30 arc-sec,12
+267,Sepulveda VA Hospital,34.249,-118.4781,300,United States of America,California,NULL,0.0120889,30 arc-sec,4
+268,Sylmar Converter West,34.3117,-118.4902,408,United States of America,California,NULL,0.0281529,30 arc-sec,4
+269,Sherman Oaks Woodman,34.1543,-118.4316,213,United States of America,California,NULL,0.00364721,30 arc-sec,12
+270,Los Angeles Dam,34.2931,-118.4848,365,United States of America,California,NULL,0.0137464,30 arc-sec,4
+271,Knolls Elementary School,34.2633,-118.6673,365,United States of America,California,NULL,0.0715692,30 arc-sec,4
+272,Epiphany Lutheran Church,34.2117,-118.606,253,United States of America,California,NULL,0.0101485,30 arc-sec,4
+273,Olive View Hospital,34.3281,-118.4451,479,United States of America,California,NULL,0.102486,30 arc-sec,3
+274,Jensen Main Building,34.3111,-118.4966,412,United States of America,California,NULL,0.0248153,30 arc-sec,3
+275,Jensen Generator Building,34.313,-118.4992,412,United States of America,California,NULL,0.0248153,30 arc-sec,3
+286,9_CE13099,33.8775,-117.5927,210,United States of America,California,CE,0.0244364,30 arc-sec,8
+287,10_CE13100,33.8753,-117.6343,182,United States of America,California,CE,0.055909,30 arc-sec,8
+290,13_CE14241,33.7761,-118.1346,5,United States of America,California,CE,0.00764568,30 arc-sec,8
+292,15_CE14560,33.7704,-118.2,1,United States of America,California,CE,0,30 arc-sec,15
+294,17_CE23897,34.1328,-117.2543,342,United States of America,California,CE,0.0137927,30 arc-sec,8
+296,19_CE24029,34.1044,-118.1007,135,United States of America,California,CE,0.0169593,30 arc-sec,8
+313,11_CIBFS,34.2383,-117.6584,1465,United States of America,California,CI,0.212556,30 arc-sec,1
+314,12_CIBHP,33.9901,-118.3614,30,United States of America,California,NULL,0.00996546,30 arc-sec,8
+320,19_CICAC,34.1361,-118.1214,217,United States of America,California,CI,0.0239658,30 arc-sec,4
+322,21_CICBC,34.1388,-118.1279,227,United States of America,California,CI,0.021589,30 arc-sec,4
+325,24_CICHF,34.3327,-118.0265,1584,United States of America,California,CI,0.0994536,30 arc-sec,1
+326,25_CICHN,33.9978,-117.6809,201,United States of America,California,CI,0.0138349,30 arc-sec,8
+329,28_CICRP,34.136,-118.1289,227,United States of America,California,CI,0.021589,30 arc-sec,4
+359,58_CILAF,33.8684,-118.3323,21,United States of America,California,CI,0.00328443,30 arc-sec,11
+369,68_CIMIK,34.135,-118.1242,217,United States of America,California,CI,0.0239658,30 arc-sec,4
+381,80_CIPASC,34.172,-118.187,401,United States of America,California,CI,0.0414485,30 arc-sec,7
+386,85_CIPLS,33.7951,-117.6088,1096,United States of America,California,CI,0.0100818,30 arc-sec,3
+390,89_CIRSB_CIRSS,33.9734,-117.3264,329,United States of America,California,CI,0.0314962,30 arc-sec,8
+391,90_CIRSS,33.9742,-117.328,329,United States of America,California,CI,0.0314962,30 arc-sec,8
+394,93_CISAN,33.7064,-117.8873,4,United States of America,California,CI,0.00283799,30 arc-sec,16
+404,103_CISIO,34.292,-119.1671,105,United States of America,California,CI,0.0458888,30 arc-sec,4
+410,109_CISMV,34.2692,-118.7429,304,United States of America,California,CI,0.000539957,30 arc-sec,4
+425,124_CIVCS,34.4845,-118.1175,975,United States of America,California,CI,0.0373908,30 arc-sec,3
+430,129_CIWGR,34.511,-119.2737,609,United States of America,California,CI,0.0687319,30 arc-sec,1
+431,130_CIWNS,34.1135,-118.3797,339,United States of America,California,CI,0.0400465,30 arc-sec,4
+465,Elysian,34.0783,-118.2294,144,United States of America,California,NULL,0.0298476,30 arc-sec,3
+502,Epiphany Lutheran Church,34.2117,-118.6051,253,United States of America,California,NULL,0.0101485,30 arc-sec,4
+503,Jensen Generator Building,34.313,-118.4983,412,United States of America,California,NULL,0.0248153,30 arc-sec,3
+504,Jensen Main Admin. Building,34.3111,-118.4957,412,United States of America,California,NULL,0.0248153,30 arc-sec,3
+505,Los Angeles Dam,34.2931,-118.4839,365,United States of America,California,NULL,0.0137464,30 arc-sec,4
+506,Olive View Hospital,34.3281,-118.4442,479,United States of America,California,NULL,0.102486,30 arc-sec,3
+507,Rinaldi Receiving Station,34.281,-118.4771,301,United States of America,California,NULL,0.0333645,30 arc-sec,4
+508,Sepulveda VA Hospital B-1,34.249,-118.4772,300,United States of America,California,NULL,0.0120889,30 arc-sec,4
+509,Sherman Oaks Park,34.1607,-118.4394,213,United States of America,California,NULL,0,30 arc-sec,12
+510,Sherman Oaks Woodman,34.1543,-118.4307,213,United States of America,California,NULL,0.00364721,30 arc-sec,12
+511,Sylmar Converter West,34.3117,-118.4893,408,United States of America,California,NULL,0.0281529,30 arc-sec,4
+512,Arleta Nordhoff Fire Station,34.236,-118.44,259,United States of America,California,NULL,0.0117013,30 arc-sec,8
+513,Baldwin Hills,34.008,-118.362,134,United States of America,California,NULL,0.0234026,30 arc-sec,7
+514,Kagel Canyon,34.296,-118.376,454,United States of America,California,NULL,0.0394501,30 arc-sec,4
+515,La Cienega,34.036,-118.378,29,United States of America,California,NULL,0.00775219,30 arc-sec,4
+516,Newhall Fire Station,34.387,-118.534,375,United States of America,California,NULL,0.0244424,30 arc-sec,7
+517,Pacoima Dam Downstream,34.335,-118.398,623,United States of America,California,NULL,0.0822105,30 arc-sec,3
+518,Sepulveda VA #5 B2,34.249,-118.478,300,United States of America,California,NULL,0.0120889,30 arc-sec,4
+519,Tarzana,34.16,-118.536,260,United States of America,California,NULL,0.0350083,30 arc-sec,12
+520,Lake Hughes #9,34.608,-118.56,609,United States of America,California,NULL,0.0793224,30 arc-sec,1
+521,Potrero P-1,34.391,-118.623,425,United States of America,California,NULL,0.0490993,30 arc-sec,1
+522,Potrero Canyon P-2,34.392,-118.662,318,United States of America,California,NULL,0.0340521,30 arc-sec,5
+523,Potrero Canyon P-3,34.036,-118.378,29,United States of America,California,NULL,0.00775219,30 arc-sec,4
+524,Rinaldi 2,34.387,-118.534,375,United States of America,California,NULL,0.0244424,30 arc-sec,7
+525,Sylmar Converter East,34.312,-118.48,389,United States of America,California,NULL,0.0301271,30 arc-sec,7
+526,Sylmar Converter East #2,34.313,-118.481,389,United States of America,California,NULL,0.0301271,30 arc-sec,7
+527,Wadsworth VA North,34.054,-118.453,93,United States of America,California,NULL,0.0303729,30 arc-sec,3
+528,Wadsworth VA South,34.05,-118.449,66,United States of America,California,NULL,0.0166699,30 arc-sec,3
+529,Willowbrook Park,33.923,-118.256,30,United States of America,California,NULL,0.00202933,30 arc-sec,8
+530,Dolphin Park/Del Amo,33.837,-118.241,21,United States of America,California,NULL,0.00531796,30 arc-sec,16
+531,Downey South Middle School,33.922,-118.138,29,United States of America,California,NULL,0.00239201,30 arc-sec,12
+532,Pico Rivera #2,33.972,-118.088,35,United States of America,California,NULL,0.00534871,30 arc-sec,12
+533,Griffith Observatory,34.1192,-118.3004,265,United States of America,California,NULL,0.0861381,30 arc-sec,12
+534,LA00 (Stone Canyon Reservoir),34.106,-118.455,249,United States of America,California,NULL,0.0384433,30 arc-sec,4
+536,Mira Catalina School,33.74,-118.335,248,United States of America,California,NULL,0.16597,30 arc-sec,3
+537,Obregon Park,34.037,-118.178,90,United States of America,California,NULL,0.0193972,30 arc-sec,8
+538,Wonderland School,34.114,-118.381,339,United States of America,California,NULL,0.0400465,30 arc-sec,4
+539,Dayton Heights Elementary School (Westmoreland),34.082,-118.289,96,United States of America,California,NULL,0.0128261,30 arc-sec,4
+540,Saturn Elementary School,34.046,-118.356,33,United States of America,California,NULL,0.00809935,30 arc-sec,4
+541,Brentwood VA Hospital,34.063,-118.462,147,United States of America,California,NULL,0.0274437,30 arc-sec,3
+542,ETEC RD-7,34.231,-118.714,551,United States of America,California,NULL,0.0620157,30 arc-sec,7
+543,ETEC RD-20,34.239,-118.717,426,United States of America,California,NULL,0.0888604,30 arc-sec,7
+544,Knolls Elementary School,34.2633,-118.6664,364,United States of America,California,NULL,0.091876,30 arc-sec,4
+545,LADWP Receiving Station E,34.177,-118.358,189,United States of America,California,NULL,0.0101771,30 arc-sec,8
+546,White Oak Church,34.2081,-118.5171,227,United States of America,California,NULL,0.00651594,30 arc-sec,8
+547,Bell-LA Bulk Mail,33.996,-118.162,41,United States of America,California,NULL,0.00745502,30 arc-sec,12
+553,Pier F Long Beach (USGS),33.746,-118.215,0,United States of America,California,NULL,0,30 arc-sec,13
+574,701BRE,33.8113,-117.9793,17,United States of America,California,NULL,0.00153911,30 arc-sec,16
+575,702STG,33.6631,-117.7675,52,United States of America,California,NULL,0.0073665,30 arc-sec,16
+576,703SRN,33.8272,-117.7889,214,United States of America,California,NULL,0.0349984,30 arc-sec,8
+577,704OLI,33.9452,-117.9214,165,United States of America,California,NULL,0.0650564,30 arc-sec,4
+578,705CPP,34.0607,-117.808,250,United States of America,California,NULL,0.05658,30 arc-sec,7
+579,706GSA,34.1366,-118.1276,227,United States of America,California,NULL,0.021589,30 arc-sec,4
+580,707CHN,33.9997,-117.6773,201,United States of America,California,NULL,0.0138349,30 arc-sec,8
+581,708CRN,33.8753,-117.5594,193,United States of America,California,NULL,0.0181358,30 arc-sec,12
+582,709MLS,34.0084,-117.5646,231,United States of America,California,NULL,0.011187,30 arc-sec,8
+583,710PDU,34.118,-117.6396,438,United States of America,California,NULL,0.0345836,30 arc-sec,4
+584,711FON,34.1,-117.4382,383,United States of America,California,NULL,0.0127606,30 arc-sec,8
+585,712CLT,34.0934,-117.3117,327,United States of America,California,NULL,0.00453773,30 arc-sec,8
+586,700FMP,33.7134,-118.2944,54,United States of America,California,NULL,0,30 arc-sec,4
+1808,Santa Monica School House,34.0112,-118.4918,12,United States of America,California,NULL,0,30 arc-sec,3
+1809,UCLA Botanical Gardens,34.0665,-118.4414,106,United States of America,California,NULL,0.022609,30 arc-sec,4
+1810,UC Riverside,33.9737,-117.3283,329,United States of America,California,NULL,0.0314962,30 arc-sec,8
+1824,613TSH,34.1621,-117.3328,501,United States of America,California,NULL,0.0280271,30 arc-sec,4
+1825,614DRW,34.1656,-117.2508,419,United States of America,California,NULL,0.0964275,30 arc-sec,4
+1826,615RCU,34.1692,-117.579,789,United States of America,California,NULL,0.215814,30 arc-sec,4
+1827,616SFS,34.1924,-117.4268,653,United States of America,California,NULL,0.0701219,30 arc-sec,4
+1839,628LHM,34.65243,-118.48062,913,United States of America,California,NULL,0.0360808,30 arc-sec,1
+1847,636SOD,34.1106,-117.0991,637,United States of America,California,NULL,0.0403638,30 arc-sec,3
+1848,637HBP,34.1589,-117.7986,919,United States of America,California,NULL,0.0496481,30 arc-sec,3
+1849,638RCO,34.0043,-117.2237,617,United States of America,California,NULL,0.0441549,30 arc-sec,4
+1850,639RIV,33.8936,-117.3215,498,United States of America,California,NULL,0.00803838,30 arc-sec,3
+1851,640CMD,33.8537,-117.4501,419,United States of America,California,NULL,0.0306518,30 arc-sec,4
+1856,645CCD,33.9124,-117.8398,135,United States of America,California,NULL,0.0331194,30 arc-sec,3
+1857,646HHC,33.9901,-117.9437,169,United States of America,California,NULL,0.0761727,30 arc-sec,4
+1858,647SAD,34.1841,-118.0206,482,United States of America,California,NULL,0.142767,30 arc-sec,2
+1859,648CWD,34.2448,-117.9652,725,United States of America,California,NULL,0.0719949,30 arc-sec,1
+1860,649MVO,34.2269,-118.0667,1633,United States of America,California,NULL,0.149697,30 arc-sec,3
+1861,650MBS,34.2323,-117.6626,1201,United States of America,California,NULL,0.0631842,30 arc-sec,1
+1862,651TUJ,34.287,-118.2268,548,United States of America,California,NULL,0.101151,30 arc-sec,3
+1863,652SFD,34.4593,-118.7515,350,United States of America,California,NULL,0.0544915,30 arc-sec,3
+1864,653SVL,34.2632,-118.6703,365,United States of America,California,NULL,0.0715692,30 arc-sec,4
+1865,654HST,34.204,-118.3018,364,United States of America,California,NULL,0.130222,30 arc-sec,4
+1866,655LAF,34.0893,-118.4373,170,United States of America,California,NULL,0.0546721,30 arc-sec,8
+1868,657MFC,34.0453,-118.6391,60,United States of America,California,NULL,0,30 arc-sec,3
+1869,658WDH,34.1668,-118.5972,270,United States of America,California,NULL,0.0178513,30 arc-sec,3
+1870,659CAM,34.2238,-118.9948,52,United States of America,California,NULL,0.0108429,30 arc-sec,4
+1950,West Los Angeles College,34.0042,-118.3853,46,United States of America,California,Los Angeles,0.0230867,30 arc-sec,7
+1952,6201 Winnetka Avenue,34.1862,-118.5773,243,United States of America,California,Woodland Hills,0.0134082,30 arc-sec,8
+1953,Castaic Area High School,34.494,-118.6627,677,United States of America,California,Castaic,0.0347979,30 arc-sec,1
+1954,Los Angeles Trade Technical College,34.0317,-118.2713,74,United States of America,California,Los Angeles,0.0131737,30 arc-sec,8
+1955,Wilson High School,33.7765,-118.1409,5,United States of America,California,Long Beach,0.00764568,30 arc-sec,8
+1956,Rowland High School,33.9815,-117.8841,168,United States of America,California,Rowland,0.0426959,30 arc-sec,11
+1957,Beverly Hills High School,34.0617,-118.4111,74,United States of America,California,Beverly Hills,0.0160268,30 arc-sec,4
+1958,RIO HONDO COMMUNITY COLLEGE,34.0197,-118.0342,108,United States of America,California,Whittier,0.0326467,30 arc-sec,12
+1959,Chaparral Continuation School,34.118,-117.809,298,United States of America,California,San Dimas,0.0220533,30 arc-sec,3
+1960,THOMAS JEFFERSON ELEMENTARY SCHOOL,34.1992,-118.3207,206,United States of America,California,Burbank,0.0444801,30 arc-sec,8
+1961,Pasadena High School,34.1616,-118.094,259,United States of America,California,Pasadena,0.0312318,30 arc-sec,4
+1962,Ventura County Medical Center,34.2771,-119.2529,58,United States of America,California,Ventura,0.0658946,30 arc-sec,1
+1963,Riverside City College,33.9721,-117.3812,252,United States of America,California,Roversode,0.0211903,30 arc-sec,8
+1964,San Bernardino Valley College Campus,34.0855,-117.3094,336,United States of America,California,San Bernardino,0.00729441,30 arc-sec,8
+1966,Santa Ana College,33.7585,-117.8881,30,United States of America,California,Santa Ana,0.000763614,30 arc-sec,16
+1968,Rancho Cucamonga High School,34.1321,-117.5476,428,United States of America,California,Rancho Cucamonga,0.0337813,30 arc-sec,4
+1971,Westminster High School,33.7522,-118.0094,6,United States of America,California,Westminster,0.00513669,30 arc-sec,16
+1972,Santa Ana College,33.7585,-117.8883,30,United States of America,California,Santa Ana,0.000763614,30 arc-sec,16
+1973, PROFESSIONAL MARINER TRAINING CENTER,33.6167,-117.918,1,United States of America,California,Newport Beach,0.00606701,30 arc-sec,11
+1979,Hoag Memorial Hospital,33.6239,-117.9291,3,United States of America,California,Newport Beach,0,30 arc-sec,15
+1980,Saint Joseph Hospital,33.7817,-117.8651,43,United States of America,California,Orange,0.00658271,30 arc-sec,16
+1981,Saint Jude Medical Center,33.8947,-117.9265,78,United States of America,California,Orange,0.0188985,30 arc-sec,8
+1983,Riverside Community Hospital,33.9768,-117.3832,243,United States of America,California,Riverside,0.00275325,30 arc-sec,4
+1984,Loma Linda University,34.0549,-117.2624,339,United States of America,California,Loma Linda,0.0287815,30 arc-sec,8
+1985,Kindred Hospital Ontario,34.0696,-117.6432,323,United States of America,California,Ontario,0.0207726,30 arc-sec,8
+1986,San Antonio Community Hospital,34.1025,-117.6359,394,United States of America,California,Upland,0.020063,30 arc-sec,4
+1989,Los Angeles Community Hospital,34.0193,-118.1867,60,United States of America,California,Los Angeles,0.0177253,30 arc-sec,8
+1990,Encino Hospital Medical Center,34.158,-118.4867,242,United States of America,California,Encino,0.0359325,30 arc-sec,16
+1991,Glendale Memorial Hospital and Health Center,34.1282,-118.2576,165,United States of America,California,Glendale,0.0124102,30 arc-sec,8
+1992,Northridge Hospital Medical Center,34.2205,-118.5332,240,United States of America,California,Northridge,0.00641731,30 arc-sec,8
+1993, Rancho Los Amigos National Rehabilitation Center,33.9305,-118.1577,29,United States of America,California,Downey,0.000688313,30 arc-sec,12
+2003,Kaiser Permanente Downey Medical Center,33.9195,-118.129,29,United States of America,California,Downey,0.00310768,30 arc-sec,16
+2008,Fountain Valley Medical Development Company,33.7138,-117.9323,1,United States of America,California,Fountain Valley,0.00163108,30 arc-sec,16
+3090,Brea Canyon Overcrossing Offramp,34.0008,-117.8439,161,United States of America,California,Diamond Bar,0.0295204,30 arc-sec,3
+3091,Bull Creek Canyon Channel,34.26878,-118.48694,290,United States of America,California,Granada Hills,0.0129997,30 arc-sec,4
+3092,Camarillo O.H. (Widen),34.21675,-119.0335,43,United States of America,California,Camarillo,0.00839325,30 arc-sec,8
+3097,Fair Oaks Avenue OC,34.15234,-118.15086,264,United States of America,California,South Pasadena,0.0202763,30 arc-sec,4
+3100,Gavin Canyon,34.34974,-118.54047,537,United States of America,California,Santa Clarita,0.0565796,30 arc-sec,3
+3113,Los Robles Avenue OC,34.15194,-118.14181,267,United States of America,California,Pasadena,0.0228136,30 arc-sec,4
+3116,RTE 55/Maple Tree,33.84072,-117.8298,121,United States of America,California,Anaheim,0.0331491,30 arc-sec,8
+3123,Orange Grove Blvd OC,34.14711,-118.16159,247,United States of America,California,Pasadena,0.0265438,30 arc-sec,7
+3126,Pleasant Valley Overcrossing,34.16598,-119.14259,1,United States of America,California,Oxnard,0.000539957,30 arc-sec,16
+3129,Santa Clarita Post Office ,34.43552,-118.63125,365,United States of America,California,NULL,0.0382651,30 arc-sec,1
+3131,Stevenson Ranch Elementary School,34.39139,-118.59574,487,United States of America,California,NULL,0.0175507,30 arc-sec,3
+3137,Santa Clara River Bridge Seismic Retrofit,34.2426,-119.1901,26,United States of America,California,Oxnard,0.0060369,30 arc-sec,4
+3142,Vincent Thomas Bridge,33.74987,-118.27433,1,United States of America,California,San Pedro,0,30 arc-sec,4
+3145,64,33.765,-118.202,1,United States of America,California,NULL,0,30 arc-sec,15
+3146,65,34.06,-118.439,106,United States of America,California,NULL,0.022609,30 arc-sec,3
+3147,66,34.0502,-118.2433,115,United States of America,California,NULL,0.0111772,30 arc-sec,7
+3148,67,33.873,-118.117,8,United States of America,California,NULL,0.00488952,30 arc-sec,16
+3149,68,34.056,-118.409,64,United States of America,California,NULL,0.00907545,30 arc-sec,4
+3150,69,34.019,-117.958,95,United States of America,California,NULL,0.00442798,30 arc-sec,12
+3151,70,33.808,-118.255,1,United States of America,California,NULL,0.00137663,30 arc-sec,15
+3152,71,34.179,-118.597,263,United States of America,California,NULL,0.0148966,30 arc-sec,4
+3153,72,34.179,-118.597,263,United States of America,California,NULL,0.0148966,30 arc-sec,4
+3154,"73 - 73 - West End of El Mirador Dr, Pasadena",34.165,-118.181,346,United States of America,California,Los Angeles,0.0651476,30 arc-sec,7
+3156,75,34.024,-117.917,138,United States of America,California,NULL,0.00556575,30 arc-sec,12
+3157,76,34.268,-118.761,297,United States of America,California,NULL,0.0274291,30 arc-sec,4
+3158,77,34.284,-118.436,335,United States of America,California,NULL,0.0160006,30 arc-sec,4
+3159,78 - Sulphur Springs Area,34.427,-119.093,365,United States of America,California,NULL,0.0497354,30 arc-sec,1
+3160,79,34.142,-118.269,156,United States of America,California,NULL,0.00682196,30 arc-sec,8
+3161,80,34.157,-118.44,213,United States of America,California,NULL,0.000572711,30 arc-sec,12
+3163,82,34.064,-118.432,95,United States of America,California,NULL,0.0246945,30 arc-sec,4
+3164,83,33.767,-118.214,1,United States of America,California,NULL,0,30 arc-sec,15
+3165,84,34.062,-118.132,121,United States of America,California,NULL,0.00382284,30 arc-sec,8
+3166,85,34.073,-118.379,48,United States of America,California,NULL,0.00812855,30 arc-sec,8
+3167,86,33.789,-117.897,32,United States of America,California,NULL,0.00325097,30 arc-sec,16
+3168,87,34.063,-118.442,106,United States of America,California,NULL,0.0220326,30 arc-sec,4
+3169,88,34.20148,-118.1714,426,United States of America,California,NULL,0.0574452,30 arc-sec,3
+3170,89,33.671,-117.864,1,United States of America,California,NULL,0.000426873,30 arc-sec,16
+3171,90,33.669,-117.864,1,United States of America,California,NULL,0.000426873,30 arc-sec,16
+3172,91,33.664,-117.856,2,United States of America,California,NULL,0.00362214,30 arc-sec,16
+3173,92,33.657,-117.862,1,United States of America,California,NULL,0.0115319,30 arc-sec,16
+3174,93,34.098,-118.3,115,United States of America,California,NULL,0.0204195,30 arc-sec,4
+3175,94,34.2332,-118.4502,249,United States of America,California,NULL,0.00787115,30 arc-sec,8
+3181,100,34.014,-118.494,12,United States of America,California,NULL,0,30 arc-sec,1
+3182,101,33.69,-117.885,4,United States of America,California,NULL,0.00202933,30 arc-sec,16
+3183,102,34.068,-118.445,120,United States of America,California,NULL,0.0290337,30 arc-sec,4
+3184,103,34.0538,-118.2487,115,United States of America,California,NULL,0.0111772,30 arc-sec,7
+3185,104,33.93,-118.387,30,United States of America,California,NULL,0.00308414,30 arc-sec,8
+3186,105,34.028,-118.477,49,United States of America,California,NULL,0.0144445,30 arc-sec,1
+3187,106,34.045,-118.257,106,United States of America,California,NULL,0.0133701,30 arc-sec,7
+3188,107,34.144,-118.251,162,United States of America,California,NULL,0.0145888,30 arc-sec,4
+3189,108,34.046,-118.1799,116,United States of America,California,NULL,0.0244789,30 arc-sec,7
+3190,109,33.619,-117.876,33,United States of America,California,NULL,0.0311647,30 arc-sec,15
+3191,110,33.692,-117.885,4,United States of America,California,NULL,0.00215983,30 arc-sec,16
+3192,111,34.097,-118.291,116,United States of America,California,NULL,0.0150136,30 arc-sec,4
+3193,31,34.05989,-118.27923,96,United States of America,California,NULL,0.0181208,30 arc-sec,7
+3194,32,34.05992,-118.29566,70,United States of America,California,NULL,0.0132221,30 arc-sec,7
+3195,33,34.065,-118.30065,62,United States of America,California,NULL,0.00865827,30 arc-sec,4
+3196,34,34.05309,-118.25071,118,United States of America,California,NULL,0.00877534,30 arc-sec,7
+3197,35,34.05649,-118.25024,118,United States of America,California,NULL,0.00877534,30 arc-sec,7
+3198,36,34.05557,-118.25448,118,United States of America,California,NULL,0.00877534,30 arc-sec,7
+3199,37,34.04849,-118.27209,92,United States of America,California,NULL,0.0178043,30 arc-sec,7
+3200,38,34.05023,-118.26705,103,United States of America,California,NULL,0.0179835,30 arc-sec,7
+3201,39,34.0213,-118.28401,52,United States of America,California,NULL,0.00477641,30 arc-sec,11
+3202,40,33.99802,-118.1974,41,United States of America,California,NULL,0.00652991,30 arc-sec,12
+3203,41,34.0599,-118.30684,62,United States of America,California,NULL,0.00865827,30 arc-sec,4
+3204,42,34.06228,-118.35736,50,United States of America,California,NULL,0.0124805,30 arc-sec,4
+3205,43,34.06259,-118.36581,44,United States of America,California,NULL,0.0102805,30 arc-sec,4
+3206,44,34.0668,-118.39159,57,United States of America,California,NULL,0.0126545,30 arc-sec,8
+3207,45,34.07798,-118.39123,63,United States of America,California,NULL,0.0263917,30 arc-sec,8
+3208,46,34.06838,-118.40872,90,United States of America,California,NULL,0.0201925,30 arc-sec,4
+3209,47,34.09233,-118.41171,169,United States of America,California,NULL,0.0547531,30 arc-sec,8
+3210,48,34.07189,-118.44687,120,United States of America,California,NULL,0.0290337,30 arc-sec,4
+3211,49,34.05941,-118.2044,121,United States of America,California,NULL,0.00554935,30 arc-sec,7
+3212,50,34.05713,-118.21262,106,United States of America,California,NULL,0.0127349,30 arc-sec,7
+3213,51,34.13632,-118.12162,217,United States of America,California,NULL,0.0239658,30 arc-sec,4
+3214,52,34.13689,-118.12655,227,United States of America,California,NULL,0.021589,30 arc-sec,4
+3215,53,34.149,-118.17,301,United States of America,California,NULL,0.0458268,30 arc-sec,3
+3216,54,34.198,-118.176,365,United States of America,California,NULL,0.0288776,30 arc-sec,3
+3217,55,34.08487,-118.15081,148,United States of America,California,NULL,0.0172871,30 arc-sec,7
+3218,56,33.95918,-118.43737,26,United States of America,California,NULL,0.0166787,30 arc-sec,11
+3219,57,33.80005,-118.38766,58,United States of America,California,NULL,0,30 arc-sec,18
+3220,58,34.019,-118.082,57,United States of America,California,NULL,0.0166262,30 arc-sec,12
+3221,59,34.03439,-118.05432,66,United States of America,California,NULL,0.00273332,30 arc-sec,8
+3224,62,33.767,-118.195,1,United States of America,California,NULL,0,30 arc-sec,12
+3225,63,33.7822,-118.1221,1,United States of America,California,NULL,0.00176004,30 arc-sec,12
+3226,Linden Terrace Calabasas ,34.12575,-118.65063,445,United States of America,California,NULL,0.0697114,30 arc-sec,3
+3607,LAC001,33.7964,-118.2233,5,United States of America,California,NULL,0.00446894,30 arc-sec,15
+3608,LAC010,33.7962,-118.2234,5,United States of America,California,NULL,0.00446894,30 arc-sec,15
+3609,LAC019,33.88,-118.1734,29,United States of America,California,Long Beach,0,30 arc-sec,16
+3610,LAC020,33.9743,-118.1482,29,United States of America,California,Commerce,0.00181107,30 arc-sec,12
+3611,LAC021,33.8705,-118.3321,21,United States of America,California,Torrance,0.00328443,30 arc-sec,11
+3612,LAC027,34.0093,-117.9507,97,United States of America,California,Industry,0.0074843,30 arc-sec,12
+3613,LAC028,34.0512,-118.0809,92,United States of America,California,Rosemead,0.00918324,30 arc-sec,8
+3987,SBC001,34.0626,-117.3,288,United States of America,California,Colton,0.0108664,30 arc-sec,8
+3988,SBC002,34.0522,-117.217,353,United States of America,California,Redlands,0.0161367,30 arc-sec,12
+3989,SBC003,34.081,-117.155,451,United States of America,California,Redlands,0.0194927,30 arc-sec,8
+3990,SBC004,34.0812,-117.178,414,United States of America,California,Redlands,0.0141552,30 arc-sec,8
+3991,SBC005,34.0776,-117.216,361,United States of America,California,Redlands,0.0132317,30 arc-sec,12
+3992,SBC006,34.0557,-117.226,344,United States of America,California,Redlands,0.00973421,30 arc-sec,12
+3993,SBC007,34.0048,-117.168,463,United States of America,California,Redlands,0.0348058,30 arc-sec,8
+3994,SBC008,34.0187,-117.189,418,United States of America,California,Redlands,0.014738,30 arc-sec,8
+3995,SBC009,34.0275,-117.203,390,United States of America,California,Redlands,0.019251,30 arc-sec,8
+3996,SBC010,34.145,-117.343,401,United States of America,California,County,0.0148709,30 arc-sec,4
+3997,SBC011,34.1491,-117.385,453,United States of America,California,County,0.0136626,30 arc-sec,4
+3998,SBC012,34.1284,-117.359,424,United States of America,California,Rialto,0.0167354,30 arc-sec,4
+3999,SBC013,34.1635,-117.279,403,United States of America,California,San Bernardino,0.01723,30 arc-sec,4
+4000,SBC014,34.1493,-117.282,381,United States of America,California,San Bernardino,0.0175569,30 arc-sec,4
+4001,SBC015,34.114,-117.311,349,United States of America,California,San Bernardino,0.0101251,30 arc-sec,8
+4002,SBC016,34.1075,-117.344,362,United States of America,California,San Bernardino,0.0113214,30 arc-sec,8
+4003,SBC017,34.1074,-117.283,315,United States of America,California,San Bernardino,0.00845382,30 arc-sec,4
+4004,SBC018,34.1032,-117.255,330,United States of America,California,San Bernardino,0.00652991,30 arc-sec,8
+4005,SBC019,34.0712,-117.263,313,United States of America,California,San Bernardino,0.0113664,30 arc-sec,8
+4006,SBC020,34.0775,-117.295,294,United States of America,California,San Bernardino,0.00757144,30 arc-sec,8
+4007,SBC021,34.0865,-117.302,311,United States of America,California,San Bernardino,0.0151969,30 arc-sec,8
+4008,SBC022,34.0806,-117.197,390,United States of America,California,Redlands,0.0135958,30 arc-sec,8
+4009,SBC023,34.0745,-117.243,332,United States of America,California,Redlands,0.00769557,30 arc-sec,8
+4010,SBC024,34.0376,-117.211,373,United States of America,California,County,0.0425235,30 arc-sec,12
+4011,SBC025,34.0461,-117.221,360,United States of America,California,County,0.0183873,30 arc-sec,12
+4012,SBC026,34.0466,-117.213,400,United States of America,California,Redlands,0.0207058,30 arc-sec,12
+4013,SBC027,34.0533,-117.221,353,United States of America,California,Redlands,0.0161367,30 arc-sec,12
+4014,SBC028,34.0633,-117.23,348,United States of America,California,Loma Linda,0.00668162,30 arc-sec,12
+4015,SBC029,34.1216,-117.283,328,United States of America,California,San Bernardino,0.0173481,30 arc-sec,8
+4016,SBC030,34.0702,-117.29,294,United States of America,California,San Bernardino,0.0061119,30 arc-sec,8
+4017,SBC031,34.0686,-117.286,294,United States of America,California,San Bernardino,0.0061119,30 arc-sec,8
+4018,SBC032,34.065,-117.285,303,United States of America,California,San Bernardino,0.00828838,30 arc-sec,8
+4019,SBC033,34.0804,-117.283,309,United States of America,California,San Bernardino,0.00869398,30 arc-sec,8
+4020,SBC034,34.0868,-117.275,311,United States of America,California,San Bernardino,0.00217664,30 arc-sec,8
+4021,SBC035,34.0979,-117.262,317,United States of America,California,San Bernardino,0.0107059,30 arc-sec,8
+4022,SBC036,34.0937,-117.286,301,United States of America,California,San Bernardino,0.0071557,30 arc-sec,8
+4023,SBC037,34.1047,-117.282,315,United States of America,California,San Bernardino,0.00845382,30 arc-sec,8
+4024,SBC038,34.0789,-117.301,304,United States of America,California,San Bernardino,0.0162448,30 arc-sec,8
+4025,SBC039,34.069,-117.299,294,United States of America,California,San Bernardino,0.00669252,30 arc-sec,8
+4026,SBC040,34.081,-117.293,294,United States of America,California,San Bernardino,0.00757144,30 arc-sec,8
+4027,SBC041,34.0617,-117.292,288,United States of America,California,Colton,0.0108664,30 arc-sec,8
+4028,SBC042,34.0564,-117.308,286,United States of America,California,Colton,0.0197408,30 arc-sec,8
+4029,SBC043,34.0448,-117.319,265,United States of America,California,Colton,0.0169044,30 arc-sec,8
+4030,SBC044,34.0481,-117.313,273,United States of America,California,Colton,0.0335914,30 arc-sec,8
+4031,SBC045,34.0932,-117.333,324,United States of America,California,San Bernardino,0.0158461,30 arc-sec,8
+4032,SBC046,34.1025,-117.338,361,United States of America,California,San Bernardino,0.0208426,30 arc-sec,8
+4033,SBC047,34.1163,-117.351,387,United States of America,California,San Bernardino,0.0168039,30 arc-sec,8
+4034,SBC048,34.1021,-117.304,335,United States of America,California,San Bernardino,0.0177376,30 arc-sec,8
+4035,SBC049,34.1271,-117.321,370,United States of America,California,San Bernardino,0.00965338,30 arc-sec,8
+4036,SBC050,34.0606,-117.255,331,United States of America,California,Loma Linda,0.0122714,30 arc-sec,8
+4037,SBC051,34.052,-117.253,347,United States of America,California,Loma Linda,0.0198558,30 arc-sec,8
+4038,SBC052,34.0414,-117.247,452,United States of America,California,Loma Linda,0.0815621,30 arc-sec,12
+4039,SBC053,34.0682,-117.28,297,United States of America,California,San Bernardino,0.00513669,30 arc-sec,8
+4040,SBC054,34.0686,-117.275,302,United States of America,California,San Bernardino,0.00271325,30 arc-sec,8
+4041,SBC055,34.0711,-117.253,328,United States of America,California,San Bernardino,0.0123867,30 arc-sec,8
+4042,SBC056,34.0774,-117.29,299,United States of America,California,San Bernardino,0.00687253,30 arc-sec,8
+4043,SBC057,34.0744,-117.293,294,United States of America,California,San Bernardino,0.00669252,30 arc-sec,8
+4044,SBC058,34.1186,-117.297,343,United States of America,California,San Bernardino,0.01094,30 arc-sec,8
+4045,SBC059,34.1224,-117.296,343,United States of America,California,San Bernardino,0.01094,30 arc-sec,8
+4046,SBC060,34.1166,-117.292,328,United States of America,California,San Bernardino,0.0117758,30 arc-sec,8
+4047,SBC061,34.12,-117.3,343,United States of America,California,San Bernardino,0.01094,30 arc-sec,8
+4048,SBC062,34.1161,-117.299,328,United States of America,California,San Bernardino,0.0117758,30 arc-sec,8
+4049,SBC063,34.1104,-117.346,374,United States of America,California,San Bernardino,0.0158461,30 arc-sec,8
+4050,SBC064,34.0838,-117.28,308,United States of America,California,San Bernardino,0.00677102,30 arc-sec,8
+4051,SBC065,34.0871,-117.289,301,United States of America,California,San Bernardino,0.00310768,30 arc-sec,8
+4052,SBC066,34.0913,-117.27,311,United States of America,California,San Bernardino,0.00217664,30 arc-sec,8
+4053,SBC067,34.1,-117.284,301,United States of America,California,San Bernardino,0.0071557,30 arc-sec,8
+4054,SBC068,34.1147,-117.283,316,United States of America,California,San Bernardino,0.0116842,30 arc-sec,4
+4055,SBC069,34.1187,-117.284,338,United States of America,California,San Bernardino,0.0142553,30 arc-sec,8
+4056,SBC070,34.1195,-117.294,343,United States of America,California,San Bernardino,0.01094,30 arc-sec,8
+4057,SBC071,34.1185,-117.315,351,United States of America,California,San Bernardino,0.0104213,30 arc-sec,8
+4058,SBC072,34.1093,-117.308,338,United States of America,California,San Bernardino,0.0118499,30 arc-sec,8
+4059,SBC073,34.056,-117.254,347,United States of America,California,Loma Linda,0.0198558,30 arc-sec,8
+4060,SBC074,34.0447,-117.248,369,United States of America,California,Loma Linda,0.0596951,30 arc-sec,8
+4061,SBC075,34.0441,-117.243,369,United States of America,California,Loma Linda,0.0596951,30 arc-sec,12
+4062,SBC076,34.0399,-117.243,452,United States of America,California,Loma Linda,0.0815621,30 arc-sec,12
+4063,SBC077,34.0943,-117.302,311,United States of America,California,San Bernardino,0.0162549,30 arc-sec,8
+4064,SBC078,34.1424,-117.281,381,United States of America,California,San Bernardino,0.0175569,30 arc-sec,8
+4065,SBC079,34.1549,-117.282,396,United States of America,California,San Bernardino,0.0138822,30 arc-sec,4
+4066,SBC080,34.1363,-117.281,361,United States of America,California,San Bernardino,0.0148917,30 arc-sec,8
+4067,SBC081,34.1319,-117.283,350,United States of America,California,San Bernardino,0.0157839,30 arc-sec,16
+4068,SBC082,34.126,-117.283,350,United States of America,California,San Bernardino,0.0157839,30 arc-sec,16
+4069,SBC083,34.129,-117.283,350,United States of America,California,San Bernardino,0.0157839,30 arc-sec,16
+4070,SBC084,34.1586,-117.282,403,United States of America,California,San Bernardino,0.01723,30 arc-sec,4
+4071,SBC085,34.1375,-117.335,388,United States of America,California,County,0.0176387,30 arc-sec,8
+4072,SBC086,34.1541,-117.349,416,United States of America,California,County,0.0127692,30 arc-sec,4
+4073,SBC087,34.1355,-117.365,408,United States of America,California,Rialto,0.0160688,30 arc-sec,8
+4074,SBC088,34.1372,-117.369,434,United States of America,California,Rialto,0.0169947,30 arc-sec,8
+4075,SBC089,34.1432,-117.375,430,United States of America,California,Rialto,0.0189611,30 arc-sec,8
+4076,SBC090,34.0807,-117.168,420,United States of America,California,Redlands,0.0179946,30 arc-sec,8
+4077,SBC091,34.0811,-117.19,405,United States of America,California,Redlands,0.01112,30 arc-sec,8
+4078,SBC092,34.0819,-117.208,381,United States of America,California,Redlands,0.0141899,30 arc-sec,8
+4079,SBC093,34.0753,-117.225,354,United States of America,California,Redlands,0.0090049,30 arc-sec,12
+4080,SBC094,34.1067,-117.242,336,United States of America,California,San Bernardino,0.00593031,30 arc-sec,8
+4081,SBC096,34.0692,-117.283,297,United States of America,California,San Bernardino,0.00513669,30 arc-sec,8
+4082,SBC097,34.0462,-117.035,828,United States of America,California,Yucaipa,0.0314597,30 arc-sec,3
+4083,SBC098,34.0128,-117.035,794,United States of America,California,Yucaipa,0.0229498,30 arc-sec,3
+4460,CE.13197,33.6623,-117.9974,1,United States of America,California,NULL,0,30 arc-sec,18
+4461,CE.13849,33.8535,-117.818,98,United States of America,California,NULL,0.0108832,30 arc-sec,8
+4462,CE.13915,33.9792,-117.3439,289,United States of America,California,NULL,0.0123203,30 arc-sec,4
+4464,CE.23091,34.0136,-117.5106,230,United States of America,California,NULL,0.0156226,30 arc-sec,12
+4465,CE.23525,34.0564,-117.7487,265,United States of America,California,NULL,0.01136,30 arc-sec,12
+4466,CE.23542,34.0656,-117.2928,288,United States of America,California,NULL,0.0108664,30 arc-sec,8
+4467,CE.23780,34.0964,-117.2872,301,United States of America,California,NULL,0.0071557,30 arc-sec,8
+4468,CE.23899,34.0692,-117.3981,338,United States of America,California,NULL,0.015923,30 arc-sec,8
+4469,CE.24611,34.0591,-118.2466,121,United States of America,California,NULL,0.0102805,30 arc-sec,7
+4470,CE.24851,34.0695,-118.3464,70,United States of America,California,NULL,0.0140025,30 arc-sec,4
+4471,CE.24853,34.0774,-118.2865,96,United States of America,California,NULL,0.0128261,30 arc-sec,4
+4472,CE.24185,34.2876,-118.8646,182,United States of America,California,NULL,0.00928977,30 arc-sec,4
+4489,CE.13079,33.9174,-117.443,240,United States of America,California,NULL,0.00305446,30 arc-sec,7
+4490,CE.13925,33.9019,-117.2355,474,United States of America,California,NULL,0.0048671,30 arc-sec,4
+4491,CE.13927,33.9212,-117.1731,507,United States of America,California,NULL,0.0352676,30 arc-sec,3
+4494,CE.13921,33.9753,-117.4865,239,United States of America,California,NULL,0.00164221,30 arc-sec,8
+4496,CE.13080,33.9677,-117.2519,544,United States of America,California,NULL,0.0461789,30 arc-sec,4
+4499,CE.13123,33.9506,-117.4453,241,United States of America,California,NULL,0.00145388,30 arc-sec,12
+4506,CI.BLC,34.24,-118.67,583,United States of America,California,NULL,0.0352226,30 arc-sec,7
+4512,CI.DEC,34.25,-118.33,487,United States of America,California,NULL,0.0202439,30 arc-sec,4
+4515,CI.DJJ,34.11,-118.46,364,United States of America,California,NULL,0.057619,30 arc-sec,4
+4516,CI.DLA,33.85,-118.1,1,United States of America,California,NULL,0,30 arc-sec,16
+4521,CI.HLL,34.18,-118.36,192,United States of America,California,NULL,0.0114431,30 arc-sec,8
+4525,CI.IPT,34.2,-117.28,798,United States of America,California,NULL,0.149537,30 arc-sec,4
+4526,CI.JNH2,34.45,-117.96,1304,United States of America,California,NULL,0.133076,30 arc-sec,4
+4527,CI.LFP,34.3053,-118.4881,371,United States of America,California,NULL,0.0272732,30 arc-sec,4
+4528,CI.LGB,33.98,-118.15,29,United States of America,California,NULL,0.00376036,30 arc-sec,8
+4530,CI.LLS,33.68,-117.94,2,United States of America,California,NULL,0.000539957,30 arc-sec,16
+4532,CI.LMS,33.82,-117.44,436,United States of America,California,NULL,0.0153734,30 arc-sec,7
+4534,CI.LTP,33.88,-118.18,29,United States of America,California,NULL,0,30 arc-sec,16
+4538,CI.MWC,34.22,-118.06,1579,United States of America,California,NULL,0.149548,30 arc-sec,3
+4539,CI.OLI,33.95,-117.92,165,United States of America,California,NULL,0.0650564,30 arc-sec,4
+4540,CI.OSI,34.61,-118.72,730,United States of America,California,NULL,0.0239612,30 arc-sec,1
+4542,CI.PDR,33.96,-118.44,26,United States of America,California,NULL,0.0166787,30 arc-sec,11
+4543,CI.PDU,34.12,-117.64,438,United States of America,California,NULL,0.0345836,30 arc-sec,4
+4547,CI.PSR,34.09,-117.81,286,United States of America,California,NULL,0.0263509,30 arc-sec,7
+4549,CI.RHC2,34,-118.01,257,United States of America,California,NULL,0.0380531,30 arc-sec,16
+4550,CI.RIO,34.1,-117.98,108,United States of America,California,NULL,0.00677102,30 arc-sec,8
+4552,CI.RPV,33.74,-118.4,0,United States of America,California,NULL,0,30 arc-sec,18
+4553,CI.RUS,34.05,-118.08,96,United States of America,California,NULL,0.0121415,30 arc-sec,8
+4555,CI.SES,34.44,-119.14,486,United States of America,California,NULL,0.0136626,30 arc-sec,3
+4557,CI.SMF2,34.02,-118.45,40,United States of America,California,NULL,0.0094531,30 arc-sec,3
+4558,CI.SRN,33.83,-117.79,214,United States of America,California,NULL,0.0349984,30 arc-sec,8
+4559,CI.STC,34.3,-119.19,174,United States of America,California,NULL,0.0580755,30 arc-sec,3
+4560,CI.STS,33.79,-118.2,2,United States of America,California,NULL,0.00355101,30 arc-sec,16
+4561,CI.SVD,34.1,-117.1,649,United States of America,California,NULL,0.108271,30 arc-sec,4
+4564,CI.USC,34.02,-118.29,52,United States of America,California,NULL,0.00477641,30 arc-sec,11
+4566,CI.WLT,34.01,-117.95,103,United States of America,California,NULL,0.0206264,30 arc-sec,12
+4568,CI.WSS,34.17,-118.65,291,United States of America,California,NULL,0.0172332,30 arc-sec,7
+4602,CI.LCG,34,-118.38,27,United States of America,California,NULL,0.0262102,30 arc-sec,7
+4605,CI.MOP,34.28,-118.9,151,United States of America,California,NULL,0.0132537,30 arc-sec,4
+4609,CI.RVR,33.99,-117.38,243,United States of America,California,NULL,0.0119586,30 arc-sec,4
+4620,Kaiser Ontario,34.03631,-117.60697,259,United States of America,California,NULL,0.0081554,30 arc-sec,8
+4622,74024,34.0506,-118.2429,115,United States of America,California,Downtown LA,0.0111772,30 arc-sec,7
+4623,75220,34.1426,-118.2709,156,United States of America,California,Los Angeles,0.00682196,30 arc-sec,8
+4625,76124,34.0673,-118.4421,120,United States of America,California,UCLA,0.0290337,30 arc-sec,4
+4626,76163,33.6913,-117.8853,4,United States of America,California,Costa Mesa,0.00202933,30 arc-sec,16
+4627,76173,34.014,-118.4937,12,United States of America,California,Santa Monica,0,30 arc-sec,1
+4629,76239,34.0642,-118.1326,121,United States of America,California,Monterey Park ,0.00382284,30 arc-sec,8
+4632,77249,34.0459,-118.2561,106,United States of America,California,Downtown LA ,0.0133701,30 arc-sec,7
+4633,76251,33.76,-118.217,1,United States of America,California,Port of Long Beach,0,30 arc-sec,15
+4634,76252,34.0643,-118.4318,95,United States of America,California,Westwood ,0.0246945,30 arc-sec,4
+4635,77042,34.2335,-118.4498,259,United States of America,California,Panorama City,0.010437,30 arc-sec,8
+4636,77056,34.0975,-118.3004,112,United States of America,California,Hollywod,0.0237581,30 arc-sec,8
+4638,77105,33.6711,-117.8648,1,United States of America,California,Newport Beach ,0.000426873,30 arc-sec,16
+4639,77171,34.0698,-118.4458,120,United States of America,California,UCLA ,0.0290337,30 arc-sec,3
+4640,77200,34.0462,-118.1802,116,United States of America,California,City Terrace ,0.0244789,30 arc-sec,7
+4641,77210,34.0289,-118.4773,49,United States of America,California,Santa Monica ,0.0144445,30 arc-sec,1
+4642,77245,34.0534,-118.249,115,United States of America,California,Downtown LA ,0.0111772,30 arc-sec,7
+4643,77277,33.6931,-117.8855,4,United States of America,California,Costa Mesa,0.00215983,30 arc-sec,16
+4644,77289,34.066,-118.431,95,United States of America,California,Westwood ,0.0246945,30 arc-sec,4
+4645,77321,33.7815,-118.2346,1,United States of America,California,Wilmington,0,30 arc-sec,13
+4646,78023,34.0502,-118.217,101,United States of America,California,East LA,0.0111069,30 arc-sec,7
+4647,78034,33.9143,-118.3892,30,United States of America,California,El Segundo ,0.00701944,30 arc-sec,15
+4648,78035,33.767,-118.1895,1,United States of America,California,Long Beach ,0,30 arc-sec,12
+4649,78051,34.0232,-118.288,52,United States of America,California,USC,0.00477641,30 arc-sec,7
+4650,78088,34.0193,-118.4983,30,United States of America,California,Santa Monica,0,30 arc-sec,1
+4651,78107,34.0638,-118.2702,113,United States of America,California,Los Angeles,0.0147935,30 arc-sec,4
+4652,78111,34.1456,-118.1345,243,United States of America,California,Pasadena,0.0149649,30 arc-sec,4
+4653,78175,33.7728,-118.2883,19,United States of America,California,Wilmington,0.0119829,30 arc-sec,15
+4654,78188,34.1859,-118.3128,202,United States of America,California,Burbank,0.0405597,30 arc-sec,4
+4655,78194,33.6625,-117.8655,1,United States of America,California,Newport Beach,0.00120738,30 arc-sec,16
+4656,78321,33.8106,-118.2392,7,United States of America,California,Carson,0.00507243,30 arc-sec,16
+4657,78344,33.6749,-117.862,1,United States of America,California,Irvine,0.000426873,30 arc-sec,16
+4658,78383,34.1544,-118.3336,167,United States of America,California,Burbank,0.0101825,30 arc-sec,8
+4659,78384,34.0714,-118.0693,83,United States of America,California,El Monte,0.00650194,30 arc-sec,8
+4660,79077,34.2211,-118.4493,243,United States of America,California,Panorama City,0.00796551,30 arc-sec,8
+4661,79203,34.1571,-118.2542,174,United States of America,California,Glendale ,0.023138,30 arc-sec,4
+4663,79252,33.9452,-118.3703,30,United States of America,California,LAX,0.000190904,30 arc-sec,7
+4664,79294,33.6174,-117.8778,33,United States of America,California,Newport Beach ,0.0311647,30 arc-sec,15
+4665,80198,33.815,-118.236,7,United States of America,California,Carson ,0.00507243,30 arc-sec,16
+4666,80392,33.8953,-118.3717,30,United States of America,California,Redondo Beach,0,30 arc-sec,11
+4667,81025,33.9302,-118.3839,30,United States of America,California,El Segundo ,0.00308414,30 arc-sec,8
+4668,81052,33.8403,-117.9421,37,United States of America,California,Anaheim,0.00512248,30 arc-sec,8
+4669,81059,34.1545,-118.2545,174,United States of America,California,Glendale ,0.023138,30 arc-sec,4
+4671,81173,33.7652,-118.1749,0,United States of America,California,Long Beach ,0,30 arc-sec,16
+4672,81373,34.0753,-118.3964,81,United States of America,California,Beverly Hills,0.0291758,30 arc-sec,8
+4673,81411,34.1428,-118.1418,245,United States of America,California,Pasadena,0.0129435,30 arc-sec,4
+4674,82007,34.0978,-118.125,132,United States of America,California,Alhambra,0.0144495,30 arc-sec,8
+4675,82031,34.0814,-118.1503,134,United States of America,California,Alhambra,0.0140804,30 arc-sec,7
+4676,82264,34.0366,-118.2667,82,United States of America,California,Downtown LA ,0.0156646,30 arc-sec,7
+4680,CI.CJV2,34.53,-118.14,1137,United States of America,California,NULL,0.0932495,30 arc-sec,4
+4684,CI.PDE,34.44,-118.58,354,United States of America,California,NULL,0.00824429,30 arc-sec,1
+4688,CI.SPF,34.06,-118.65,429,United States of America,California,NULL,0.143141,30 arc-sec,1
+4690,CI.WTT2,33.95,-118.26,32,United States of America,California,NULL,0.00461339,30 arc-sec,16
+4697,CI.CDM,34.37,-119.34,158,United States of America,California,NULL,0.0649476,30 arc-sec,3
+4728,CI.AGO,34.15,-118.77,304,United States of America,California,NULL,0.0812821,30 arc-sec,7
+4733,CI.CFT,34.04,-117.11,661,United States of America,California,NULL,0.0295037,30 arc-sec,8
+4734,CI.CHI,34.18,-119.22,1,United States of America,California,NULL,0,30 arc-sec,18
+4735,CI.CLO,34.22,-119.01,52,United States of America,California,NULL,0.00760266,30 arc-sec,8
+4737,CI.CRF,33.87,-118.04,6,United States of America,California,NULL,0.00393558,30 arc-sec,16
+4738,CI.CRN,33.88,-117.56,193,United States of America,California,NULL,0.0181358,30 arc-sec,12
+4739,CI.CSL,34.5,-118.62,365,United States of America,California,NULL,0.0344098,30 arc-sec,1
+4742,CI.DTC,34.42,-118.66,331,United States of America,California,NULL,0.0306333,30 arc-sec,3
+4744,CI.FMO,34.41,-118.92,177,United States of America,California,NULL,0.0634731,30 arc-sec,3
+4745,CI.FON,34.1,-117.44,383,United States of America,California,NULL,0.0127606,30 arc-sec,8
+4747,CI.FUL,33.87,-117.92,56,United States of America,California,NULL,0.00447301,30 arc-sec,8
+4749,CI.GOU,34.22,-118.19,563,United States of America,California,NULL,0.123456,30 arc-sec,3
+4750,CI.GVR,34.05,-118.12,120,United States of America,California,NULL,0.0174768,30 arc-sec,8
+4751,CI.HLN,34.12,-117.22,346,United States of America,California,NULL,0.0152017,30 arc-sec,4
+4754,CI.KIK,34.15,-118.1,214,United States of America,California,NULL,0.023244,30 arc-sec,4
+4755,CI.KML,33.6,-117.88,1,United States of America,California,NULL,0,30 arc-sec,15
+4756,CI.LAT,34.04,-118.78,121,United States of America,California,NULL,0.131267,30 arc-sec,1
+4758,CI.LVY,34.17,-119.16,1,United States of America,California,NULL,0,30 arc-sec,16
+4760,CI.MES,34.26,-119.1,60,United States of America,California,NULL,0.0159653,30 arc-sec,8
+4762,CI.MNO,33.95,-117.17,559,United States of America,California,NULL,0.0224204,30 arc-sec,4
+4765,CI.NOT,34.23,-118.56,247,United States of America,California,NULL,0.00794718,30 arc-sec,4
+4766,CI.NWH,33.73,-117.75,117,United States of America,California,NULL,0.0213846,30 arc-sec,4
+4767,CI.OGC,33.79,-117.84,67,United States of America,California,NULL,0.00847964,30 arc-sec,16
+4768,CI.PDW,33.92,-117.62,180,United States of America,California,NULL,0.00286355,30 arc-sec,12
+4771,CI.QUG,34.4,-118.5,510,United States of America,California,NULL,0.0286991,30 arc-sec,7
+4772,CI.RCU,34.08,-117.52,320,United States of America,California,NULL,0.00907545,30 arc-sec,8
+4776,CI.SLM,34.45,-118.42,548,United States of America,California,NULL,0.0198659,30 arc-sec,3
+4777,CI.SMT,34.33,-119.01,472,United States of America,California,NULL,0.0935552,30 arc-sec,8
+4779,CI.SSS,34.03,-117.45,555,United States of America,California,NULL,0.0964216,30 arc-sec,8
+4788,CI.LGU,34.11,-119.07,151,United States of America,California,NULL,0.146457,30 arc-sec,16
+4792,CI.SMS,34.01,-118.46,32,United States of America,California,NULL,0.00730689,30 arc-sec,3
+4795,CI.TOV,34.16,-118.82,304,United States of America,California,NULL,0.0262102,30 arc-sec,11
+4797,CI.WTT,33.95,-118.26,32,United States of America,California,NULL,0.00461339,30 arc-sec,16
+4801,CI.OAT,34.34,-118.61,1015,United States of America,California,NULL,0.0861853,30 arc-sec,3
+4874,CI.JPLS,34.2053,-118.17368,426,United States of America,California,NULL,0.0574452,30 arc-sec,3
+4974,Geometrics_1,34.13681,-118.12882,227,United States of America,California,Pasadena,0.021589,30 arc-sec,4
+5503,Geometrics_530,33.83638,-118.24148,21,United States of America,California,Long Beach,0.00531796,30 arc-sec,16
+5504,Geometrics_531,34.14028,-118.12717,227,United States of America,California,Pasadena,0.021589,30 arc-sec,4
+5509,Geometrics_536,33.78705,-118.29562,27,United States of America,California,Harbor City,0.00939121,30 arc-sec,15
+5510,Geometrics_537,33.86653,-118.19241,13,United States of America,California,Lakewood,0.00661585,30 arc-sec,12
+5511,Geometrics_538,33.92166,-118.17598,29,United States of America,California,East Rancho Dominguez,0,30 arc-sec,12
+5512,Geometrics_539,33.93659,-118.10015,30,United States of America,California,Santa Fe Springs,0,30 arc-sec,12
+5513,Geometrics_540,33.92312,-118.25708,30,United States of America,California,August F Haw,0.00202933,30 arc-sec,8
+5517,Geometrics_544,33.85829,-118.2681,17,United States of America,California,Carson,0.00213437,30 arc-sec,16
+5518,Geometrics_545,33.83349,-118.25016,16,United States of America,California,Long Beach,0.00561789,30 arc-sec,16
+5519,Geometrics_546,33.83313,-118.24363,14,United States of America,California,Long Beach,0.00519314,30 arc-sec,16
+5520,Geometrics_547,33.85,-118.2615,17,United States of America,California,Carson,0.00495614,30 arc-sec,16
+5528,Geometrics_555,33.89412,-118.41545,30,United States of America,California,Manhattan Beach,0,30 arc-sec,18
+5529,Geometrics_556,33.79709,-118.21706,5,United States of America,California,Carson,0.00446894,30 arc-sec,15
+5543,Geometrics_570,33.83991,-118.26056,12,United States of America,California,Long Beach,0.00449334,30 arc-sec,16
+5562,Geometrics_589,34.14555,-118.0998,214,United States of America,California,Pasadena,0.023244,30 arc-sec,4
+5640,5/14 Interchange HOV Conn/Sep/OC,34.33033,-118.50605,449,United States of America,California,Sylmar,0.0261447,30 arc-sec,3
+5667,"SE Connector, NB 215-WB 60",33.9936,-117.3561,268,United States of America,California,Riverside,0.0153306,30 arc-sec,4
+5694,RTE 5/West Sylmar OC,34.3294,-118.5051,449,United States of America,California,Sylmar,0.0261447,30 arc-sec,3
+5725,RTE14/I5 Connectors( 53-2795F),34.33709,-118.50834,488,United States of America,California,Sylmar,0.054311,30 arc-sec,3
+5726,RTE14/I5 Connectors(53-2796F),34.33667,-118.59846,854,United States of America,California,Sylmar,0.185483,30 arc-sec,3
+5727,RTE14/I5 Connectors (53-2797F),34.337,-118.50844,488,United States of America,California,Sylmar,0.054311,30 arc-sec,3
+5735,78044,34.1551,-118.467,220,United States of America,California,Sherman Oaks,0.0286037,30 arc-sec,12
+5736,78046,34.0626,-118.205,121,United States of America,California,East LA,0.00554935,30 arc-sec,7
+5737,78049,34.2205,-118.625,267,United States of America,California,Canoga Park,0.0081554,30 arc-sec,4
+5738,78053,34.074,-117.44,343,United States of America,California,Fontana,0.0129702,30 arc-sec,8
+5739,78058,34.1085,-117.297,328,United States of America,California,San Bernardino,0.0117758,30 arc-sec,8
+5741,78180,34.0289,-118.472,49,United States of America,California,Santa Monica,0.0113423,30 arc-sec,1
+5742,78253,34.1916,-118.668,365,United States of America,California,Burbank,0.0379341,30 arc-sec,3
+5743,78254,34.1829,-118.601,259,United States of America,California,Woodland Hills,0.014319,30 arc-sec,4
+5744,78256,34.0518,-118.255,118,United States of America,California,Downtown LA,0.00877534,30 arc-sec,7
+5745,78276,33.7995,-117.918,30,United States of America,California,Anaheim,0.000381807,30 arc-sec,12
+5748,78297,34.0492,-118.273,92,United States of America,California,East LA,0.0178043,30 arc-sec,7
+5750,78373,34.0593,-118.302,62,United States of America,California,Los Angeles,0.00865827,30 arc-sec,4
+5751,78397,33.9475,-118.379,30,United States of America,California,LAX,0.000269978,30 arc-sec,7
+5752,79009,34.0479,-118.257,106,United States of America,California,Downtown LA,0.0133701,30 arc-sec,7
+5753,79027,34.0585,-118.444,106,United States of America,California,Westwood,0.0220326,30 arc-sec,3
+5754,79036,34.0603,-118.438,106,United States of America,California,Westwood,0.022609,30 arc-sec,3
+5755,79076,33.6917,-117.884,4,United States of America,California,Costa Mesa,0.00215983,30 arc-sec,16
+5758,79119,34.0617,-118.434,106,United States of America,California,Westwood,0.022609,30 arc-sec,4
+5759,79120,33.859,-118.001,17,United States of America,California,Buena Park,0.00429002,30 arc-sec,16
+5761,79124,34.0658,-118.43,95,United States of America,California,Westwood,0.0246945,30 arc-sec,4
+5764,79163,34.0564,-118.2575,118,United States of America,California,Downtown LA,0.00877534,30 arc-sec,7
+5765,79167,34.0607,-118.4146,74,United States of America,California,Century City,0.0160268,30 arc-sec,4
+5768,79189,34.064,-118.3724,40,United States of America,California,West LA,0.0075594,30 arc-sec,4
+5773,79295,33.7156,-117.954,2,United States of America,California,Fountain Valley,0,30 arc-sec,16
+5775,79304,34.0476,-118.253,106,United States of America,California,Downtown LA,0.0133701,30 arc-sec,7
+5776,79321,34.0595,-118.44,106,United States of America,California,Westwood,0.022609,30 arc-sec,3
+5777,79334,33.6749,-117.862,1,United States of America,California,Irvine,0.000426873,30 arc-sec,16
+5778,79335,34.0677,-118.428,120,United States of America,California,Westwood,0.0211937,30 arc-sec,4
+5779,79337,33.9168,-118.395,39,United States of America,California,El Segundo,0.0115129,30 arc-sec,15
+5780,79351,34.0519,-118.254,118,United States of America,California,Downtown LA,0.00877534,30 arc-sec,7
+5781,80011,34.0634,-118.432,95,United States of America,California,Westwood,0.0246945,30 arc-sec,4
+5782,80038,34.0625,-118.415,74,United States of America,California,Century City,0.0160268,30 arc-sec,4
+5784,80057,34.0603,-118.44,106,United States of America,California,Westwood,0.022609,30 arc-sec,3
+5786,80072,34.0669,-118.428,120,United States of America,California,Westwood,0.0211937,30 arc-sec,4
+5787,80082,33.6928,-117.9193,1,United States of America,California,Costa Mesa,0,30 arc-sec,16
+5788,80099,34.0563,-118.3961,60,United States of America,California,West LA,0.00524203,30 arc-sec,4
+5790,80154,34.0986,-118.2964,115,United States of America,California,Hollywood,0.0204195,30 arc-sec,4
+5791,80160,34.055,-118.2558,118,United States of America,California,Downtown LA,0.00877534,30 arc-sec,7
+5793,80180,34.0446,-118.4679,78,United States of America,California,West LA,0.0241665,30 arc-sec,1
+5794,80243,34.1419,-118.1337,243,United States of America,California,Pasadena,0.0149649,30 arc-sec,4
+5798,80292,34.0362,-118.0869,95,United States of America,California,Montebello,0.0130668,30 arc-sec,8
+5801,80376,34.0907,-118.3832,84,United States of America,California,West Hollywood,0.0705571,30 arc-sec,8
+5802,80380,33.7655,-118.192,1,United States of America,California,Long Beach,0,30 arc-sec,12
+5803,80391,34.146,-118.2573,162,United States of America,California,Glendale,0.0145888,30 arc-sec,4
+5804,80402,34.1451,-118.132,243,United States of America,California,Pasadena,0.0177827,30 arc-sec,8
+5805,80403,34.059,-118.24,112,United States of America,California,LA Chinatown,0.0161277,30 arc-sec,7
+5806,80405,33.7669,-118.1877,1,United States of America,California,Long Beach,0,30 arc-sec,16
+5807,80408,33.9798,-117.3726,267,United States of America,California,Riverside,0.0198989,30 arc-sec,4
+5809,81014,33.7663,-118.189,1,United States of America,California,Long Beach,0,30 arc-sec,12
+5810,81040,34.0494,-118.261,103,United States of America,California,Downtown LA,0.0151043,30 arc-sec,7
+5811,81064,33.7148,-117.99,4,United States of America,California,Huntington Beach,0.00436163,30 arc-sec,16
+5812,81073,34.1012,-118.343,149,United States of America,California,Hollywood,0.0800915,30 arc-sec,4
+5813,81093,34.1405,-118.351,243,United States of America,California,Universal City,0.0436769,30 arc-sec,12
+5814,81103,34.1583,-118.255,174,United States of America,California,Glendale,0.023138,30 arc-sec,4
+5815,81147,33.9462,-118.37,30,United States of America,California,Inglewood,0.000190904,30 arc-sec,7
+5816,81162,34.0576,-118.447,85,United States of America,California,Westwood,0.0237043,30 arc-sec,3
+5819,81190,34.0508,-118.259,116,United States of America,California,Downtown LA,0.011989,30 arc-sec,7
+5821,81230,34.0646,-118.373,40,United States of America,California,West LA,0.0075594,30 arc-sec,4
+5822,81259,34.4612,-118.7521,350,United States of America,California,Piru,0.0544915,30 arc-sec,3
+5823,81260,34.0621,-118.353,50,United States of America,California,Los Angeles,0.0124805,30 arc-sec,4
+5824,81262,34.198,-118.347,204,United States of America,California,Burbank,0.0128261,30 arc-sec,8
+5825,81265,34.0505,-118.262,116,United States of America,California,Downtown LA,0.011989,30 arc-sec,7
+5826,81269,34.1514,-118.255,174,United States of America,California,Glendale,0.023138,30 arc-sec,4
+5827,81271,34.1527,-118.339,167,United States of America,California,Burbank,0.0101825,30 arc-sec,8
+5829,81274,34.0481,-118.261,103,United States of America,California,Long Beach,0.0151043,30 arc-sec,7
+5831,81312,33.7638,-118.2,1,United States of America,California,Redlands,0,30 arc-sec,15
+5832,81315,34.037,-117.205,436,United States of America,California,San Diego,0.0326557,30 arc-sec,8
+5835,81341,34.0458,-118.259,103,United States of America,California,Downtown LA,0.0151043,30 arc-sec,7
+5836,81344,34.0612,-118.434,106,United States of America,California,Westwood,0.022609,30 arc-sec,4
+5837,81345,33.7767,-117.848,57,United States of America,California,Orange,0.00851396,30 arc-sec,16
+5838,81380,34.0606,-118.242,121,United States of America,California,LA Chinatown,0.0102805,30 arc-sec,7
+5840,81394,33.9464,-118.385,30,United States of America,California,LAX,0.00060369,30 arc-sec,15
+5844,82020,34.0699,-118.375,49,United States of America,California,West LA,0.00906943,30 arc-sec,8
+5845,82027,34.0676,-118.287,90,United States of America,California,Los Angeles,0.0143089,30 arc-sec,4
+5847,82037,33.9824,-118.46,2,United States of America,California,Marina del Rey,0,30 arc-sec,7
+5848,82038,33.9738,-118.452,3,United States of America,California,Marina del Rey,0,30 arc-sec,18
+5849,82046,34.0616,-118.301,62,United States of America,California,Los Angeles,0.00865827,30 arc-sec,4
+5850,82063,33.8344,-118.353,30,United States of America,California,Torrance,0.00188985,30 arc-sec,18
+5852,82082,33.6208,-117.913,1,United States of America,California,Newport Beach,0.00176004,30 arc-sec,11
+5853,82125,34.0484,-118.462,78,United States of America,California,Brentwood,0.0254769,30 arc-sec,3
+5854,82148,33.7654,-118.176,0,United States of America,California,Long Beach,0,30 arc-sec,16
+5855,82149,33.6918,-117.881,8,United States of America,California,Costa Mesa,0.00181107,30 arc-sec,16
+5857,82163,34.1483,-119.211,0,United States of America,California,Port Hueneme,0,30 arc-sec,18
+5860,82224,34.0587,-117.342,293,United States of America,California,Colton,0.0125489,30 arc-sec,8
+5861,82247,34.0526,-118.263,116,United States of America,California,Los Angeles,0.011989,30 arc-sec,7
+5862,82266,34.0467,-118.262,103,United States of America,California,Downtown LA,0.0151043,30 arc-sec,7
+5863,82284,33.8237,-118.227,13,United States of America,California,Carson,0.00532481,30 arc-sec,12
+5864,82297,33.9856,-117.373,252,United States of America,California,Riverside,0.0160404,30 arc-sec,4
+5865,82312,34.0207,-118.398,28,United States of America,California,Culver City,0.00504,30 arc-sec,7
+5866,83001,34.1782,-118.603,259,United States of America,California,Woodland Hills,0.014319,30 arc-sec,4
+5867,83011,34.062,-118.241,112,United States of America,California,LA Chinatown,0.0161277,30 arc-sec,7
+5868,83014,34.1528,-118.343,178,United States of America,California,Burbank,0.00634593,30 arc-sec,8
+5869,83040,33.8225,-118.243,10,United States of America,California,Carson,0.00543321,30 arc-sec,12
+5870,83049,33.9711,-118.427,11,United States of America,California,Marina del Rey,0.0125504,30 arc-sec,7
+5871,83053,34.0735,-118.401,78,United States of America,California,Beverly Hills,0.0200594,30 arc-sec,8
+5872,83063,34.0402,-118.427,50,United States of America,California,West LA,0.0100038,30 arc-sec,3
+5873,83078,33.9324,-118.377,30,United States of America,California,LAX,0,30 arc-sec,7
+5874,83123,34.0586,-118.262,121,United States of America,California,Los Angeles,0.0063258,30 arc-sec,7
+5876,83199,33.9487,-118.338,30,United States of America,California,Inglewood,0.0133387,30 arc-sec,7
+5877,83207,33.9449,-118.377,30,United States of America,California,LAX,0.000269978,30 arc-sec,7
+5880,83249,34.0417,-118.253,106,United States of America,California,Downtown LA,0.0133701,30 arc-sec,7
+5882,83262,33.7673,-118.192,1,United States of America,California,Long Beach,0,30 arc-sec,12
+5883,83282,34.0606,-118.249,121,United States of America,California,Downtown LA,0.0102805,30 arc-sec,3
+5884,83287,34.1832,-118.447,213,United States of America,California,Van Nuys,0.000190904,30 arc-sec,8
+5885,83295,34.1007,-118.106,135,United States of America,California,San Gabriel,0.0169593,30 arc-sec,8
+5886,83297,33.9048,-117.47,241,United States of America,California,Riverside,0.000381807,30 arc-sec,4
+5887,83307,33.9192,-118.39,30,United States of America,California,El Segundo,0.00462129,30 arc-sec,15
+5888,83318,33.781,-118.185,1,United States of America,California,Long Beach,0.00157423,30 arc-sec,16
+5889,83319,34.0477,-118.24,95,United States of America,California,Little Tokyo,0.0107738,30 arc-sec,7
+5890,83322,33.6855,-117.853,3,United States of America,California,Irvine,0.00320013,30 arc-sec,16
+5891,84021,34.0621,-118.353,50,United States of America,California,West LA,0.0124805,30 arc-sec,4
+5892,84032,34.0513,-118.254,118,United States of America,California,Downtown LA,0.00877534,30 arc-sec,7
+5893,84034,34.1856,-118.597,244,United States of America,California,Woodland Hills,0.0118067,30 arc-sec,4
+5894,84065,33.6719,-117.856,2,United States of America,California,Irvine,0.00269978,30 arc-sec,16
+5895,84066,33.9829,-118.103,32,United States of America,California,Pica Rivera,0.00539957,30 arc-sec,8
+5896,84080,34.0486,-117.261,357,United States of America,California,Loma Linda,0.0669252,30 arc-sec,8
+5897,84120,34.0524,-118.239,103,United States of America,California,Downtown LA,0.0122551,30 arc-sec,7
+5898,84145,33.6822,-117.839,10,United States of America,California,Irvine,0.00431965,30 arc-sec,12
+5899,84182,34.0978,-118.365,115,United States of America,California,Hollywood,0.0821178,30 arc-sec,8
+5900,84199,34.063,-118.358,50,United States of America,California,West LA,0.0124805,30 arc-sec,4
+5901,84200,34.1592,-118.501,235,United States of America,California,Encino,0.0301344,30 arc-sec,16
+5902,84227,33.8584,-118.304,17,United States of America,California,Los Angeles,0.000763614,30 arc-sec,15
+5903,84235,33.6985,-117.864,8,United States of America,California,Santa Ana,0.00447301,30 arc-sec,16
+5905,84271,34.0582,-118.445,85,United States of America,California,Westwood,0.0237043,30 arc-sec,3
+5906,84274,34.0591,-118.443,106,United States of America,California,Westwood,0.0220326,30 arc-sec,3
+5907,84277,34.0584,-118.416,74,United States of America,California,Century City,0.0160268,30 arc-sec,4
+5908,84280,34.0354,-118.446,57,United States of America,California,West LA,0.0100601,30 arc-sec,3
+5909,84290,33.98,-118.394,29,United States of America,California,West LA,0.00326774,30 arc-sec,11
+5910,84295,34.0498,-118.256,106,United States of America,California,Downtown LA,0.0133701,30 arc-sec,7
+5911,84310,33.8458,-118.394,0,United States of America,California,Redondo Beach,0,30 arc-sec,18
+5912,84361,33.6871,-117.885,4,United States of America,California,Costa Mesa,0.00202933,30 arc-sec,16
+5913,84376,34.148,-118.257,162,United States of America,California,Glendale,0.0145888,30 arc-sec,4
+5914,84383,34.1582,-118.256,174,United States of America,California,Glendale,0.023138,30 arc-sec,4
+5915,85001,34.0509,-118.263,116,United States of America,California,Downtown LA,0.011989,30 arc-sec,7
+5917,85018,34.034,-118.456,56,United States of America,California,Brentwood,0.012562,30 arc-sec,1
+5918,85062,33.8195,-118.243,10,United States of America,California,Carson,0.00543321,30 arc-sec,12
+5919,85065,33.7855,-117.881,39,United States of America,California,Orange,0.00575567,30 arc-sec,16
+5920,85077,33.7648,-118.201,1,United States of America,California,Long Beach,0,30 arc-sec,15
+5921,85092,34.2399,-118.571,259,United States of America,California,Northridge,0.0108547,30 arc-sec,4
+5922,85121,34.1558,-118.818,304,United States of America,California,Thousand Oaks,0.0116451,30 arc-sec,11
+5923,85122,34.2282,-119.175,17,United States of America,California,Oxnard,0.00561789,30 arc-sec,8
+5924,85134,33.788,-117.893,32,United States of America,California,Orange,0.00325097,30 arc-sec,16
+5925,85143,34.0473,-118.378,35,United States of America,California,West LA,0.0108664,30 arc-sec,4
+5926,85205,34.0307,-118.016,88,United States of America,California,Industry,0.0699666,30 arc-sec,12
+5927,85213,33.6553,-117.866,1,United States of America,California,Newport Beach,0.0115319,30 arc-sec,16
+5928,85240,34.1203,-118.134,194,United States of America,California,Pasadena,0.0218699,30 arc-sec,4
+5929,85254,33.7247,-118.269,1,United States of America,California,Terminal Island,0,30 arc-sec,4
+5930,85271,33.7677,-118.208,1,United States of America,California,Port of Long Beach,0,30 arc-sec,15
+5931,85296,33.8582,-118.291,17,United States of America,California,Los Angeles,0.000954518,30 arc-sec,15
+5932,85309,33.6812,-117.84,10,United States of America,California,Irvine,0.00431965,30 arc-sec,12
+5933,85310,34.0495,-118.26,103,United States of America,California,Downtown LA,0.0151043,30 arc-sec,7
+5935,85383,33.7422,-117.842,34,United States of America,California,Santa Ana,0.00512959,30 arc-sec,12
+5939,86059,33.6624,-117.773,52,United States of America,California,Irvine,0.0073665,30 arc-sec,16
+5940,86097,33.759,-118.078,1,United States of America,California,Seal Beach,0,30 arc-sec,16
+5942,86161,34.0282,-118.235,79,United States of America,California,Los Angeles,0.0129435,30 arc-sec,8
+5943,86177,34.0492,-117.214,400,United States of America,California,Redlands,0.0207058,30 arc-sec,12
+5944,86187,34.1522,-118.336,167,United States of America,California,Burbank,0.0101825,30 arc-sec,8
+5945,86207,34.0826,-118.383,55,United States of America,California,West Hollywood,0.020762,30 arc-sec,8
+5946,86211,34.3797,-118.499,426,United States of America,California,Newhall,0.0341712,30 arc-sec,7
+5950,86397,34.0671,-118.393,66,United States of America,California,Beverly Hills,0.0166185,30 arc-sec,8
+5951,87026,33.6902,-117.917,1,United States of America,California,Costa Mesa,0.000381807,30 arc-sec,16
+5952,87033,33.9781,-117.377,243,United States of America,California,Riverside,0.00275325,30 arc-sec,4
+5954,87143,34.0618,-118.434,106,United States of America,California,Brentwood,0.022609,30 arc-sec,4
+5955,87169,33.9522,-117.303,431,United States of America,California,Riverside,0.0362867,30 arc-sec,7
+5956,87204,33.655,-117.748,68,United States of America,California,Irvine,0.0222409,30 arc-sec,11
+5957,87276,33.8147,-118.24,7,United States of America,California,Carson,0.00507243,30 arc-sec,11
+5958,87303,34.1552,-118.817,304,United States of America,California,Thousand Oaks,0.0116451,30 arc-sec,11
+5959,87356,33.7439,-118.041,1,United States of America,California,Huntington Beach,0.000763614,30 arc-sec,16
+5960,87371,33.9788,-118.416,19,United States of America,California,Marina del Rey,0.0079403,30 arc-sec,11
+5961,87410,34.2189,-119.158,21,United States of America,California,Oxnard,0.00543321,30 arc-sec,8
+5963,87433,34.1649,-118.375,182,United States of America,California,North Hollywood,0.00329551,30 arc-sec,12
+5964,87459,34.0028,-117.378,238,United States of America,California,Riverside,0.0100038,30 arc-sec,4
+5966,87507,34.4615,-118.6,365,United States of America,California,Saugus,0.0317182,30 arc-sec,1
+5967,88001,34.4655,-118.594,365,United States of America,California,Saugus,0.0317182,30 arc-sec,1
+5968,88018,33.8101,-118.237,7,United States of America,California,Carson,0.00507243,30 arc-sec,16
+5969,88030,34.085,-118.32,96,United States of America,California,Hollywood,0.0146188,30 arc-sec,11
+5970,88052,33.6864,-117.892,4,United States of America,California,Costa Mesa,0.000763614,30 arc-sec,16
+5972,88081,33.6724,-117.848,6,United States of America,California,Irvine,0.00431965,30 arc-sec,16
+5973,88099,34.1946,-118.463,219,United States of America,California,Van Nuys,0.00662686,30 arc-sec,8
+5976,88293,34.0619,-118.292,70,United States of America,California,Los Angeles,0.0132221,30 arc-sec,4
+5979,89026,33.7779,-117.868,38,United States of America,California,Santa Ana,0.00612083,30 arc-sec,16
+5981,89046,33.9847,-118.444,10,United States of America,California,Marina del Rey,0,30 arc-sec,11
+5983,89088,33.8075,-117.877,45,United States of America,California,Anaheim,0.00288889,30 arc-sec,16
+5984,89389,34.0056,-118.152,46,United States of America,California,Commerce,0.00652991,30 arc-sec,8
+5990,84078-5,33.8186,-118.242,10,United States of America,California,Carson,0.00543321,30 arc-sec,12
+5991,84078-7,33.8186,-118.243,10,United States of America,California,Carson,0.00543321,30 arc-sec,12
+6009,85097-05,33.8171,-118.245,10,United States of America,California,Carson,0.00543321,30 arc-sec,11
+6010,85097-06,33.8171,-118.243,10,United States of America,California,Carson,0.00543321,30 arc-sec,11
+6011,85097-09,33.8161,-118.246,5,United States of America,California,Carson,0.00489324,30 arc-sec,11
+6012,85097-11,33.8171,-118.246,10,United States of America,California,Carson,0.00543321,30 arc-sec,11
+6013,88044-04,33.9019,-118.379,30,United States of America,California,El Segundo,0.00134989,30 arc-sec,11
+6014,88044-22,33.9268,-118.388,30,United States of America,California,El Segundo,0.00308414,30 arc-sec,7
+6015,75125,34.2684,-118.766,297,United States of America,California,Simi Valley,0.0274291,30 arc-sec,4
+6366,CE.13066,33.8401,-117.957,35,United States of America,California,Anaheim,0.00497816,30 arc-sec,12
+6367,CE13067,33.7861,-117.8093,94,United States of America,California,Orange,0.0125547,30 arc-sec,8
+6368,CE.13068,33.8633,-117.7423,165,United States of America,California,Anaheim,0.0543214,30 arc-sec,3
+6369,CE.13069,33.7675,-117.8498,53,United States of America,California,Santa Ana,0.00840843,30 arc-sec,12
+6370,CE.13098,33.8842,-117.5142,241,United States of America,California,Corona,0.000539957,30 arc-sec,8
+6371,CE.13162,33.9901,-117.7178,214,United States of America,California,Chino Hills,0.0196325,30 arc-sec,8
+6372,CE.13174,33.9893,-117.8896,149,United States of America,California,Rowlands Heights,0.0191371,30 arc-sec,4
+6373,CE.13873,33.9331,-117.896,117,United States of America,California,Brea,0.0304932,30 arc-sec,7
+6374,CE.13878,33.8891,-117.887,81,United States of America,California,Fullerton,0.0174068,30 arc-sec,8
+6375,CE.13879,33.8663,-117.959,49,United States of America,California,Fullerton,0.00803838,30 arc-sec,8
+6376,CE.13880,33.9086,-117.9311,103,United States of America,California,Fullerton,0.0103335,30 arc-sec,4
+6377,CE.13881,33.9316,-117.9558,121,United States of America,California,La Habra,0.000539957,30 arc-sec,4
+6378,CE.13884,33.7667,-117.9178,26,United States of America,California,Garden Grove,0.00514024,30 arc-sec,16
+6379,CE.13885,33.7571,-117.9559,9,United States of America,California,Garden Grove,0.0048671,30 arc-sec,16
+6380,CE.13886,33.7911,-117.968,15,United States of America,California,Garden Grove,0.00217664,30 arc-sec,16
+6381,CE.13888,33.8195,-117.8497,62,United States of America,California,Orange,0.00854813,30 arc-sec,12
+6382,CE.13889,33.7478,-117.8441,34,United States of America,California,Santa Ana,0.00512959,30 arc-sec,16
+6383,CE.13890,33.742,-117.8938,22,United States of America,California,Santa Ana,0.00634593,30 arc-sec,12
+6384,CE.13891,33.7157,-117.9038,4,United States of America,California,Santa Ana,0.0023067,30 arc-sec,16
+6385,CE.13892,33.6997,-117.88,8,United States of America,California,Santa Ana,0.00181107,30 arc-sec,16
+6386,CE.13893,33.7846,-117.8901,35,United States of America,California,Orange,0.0053453,30 arc-sec,16
+6387,CE.13894,33.789,-117.9216,30,United States of America,California,Garden Grove,0.000381807,30 arc-sec,16
+6388,CE.13913,33.9188,-117.4879,241,United States of America,California,Riverside,0.000381807,30 arc-sec,8
+6389,CE.13914,33.9511,-117.3882,279,United States of America,California,Riverside,0.0197749,30 arc-sec,7
+6390,CE.13918,33.9035,-117.561,182,United States of America,California,Norco,0.0104213,30 arc-sec,12
+6391,CE.14006,33.7269,-118.0007,11,United States of America,California,Huntington Beach,0.00339894,30 arc-sec,16
+6392,CE.14007,33.723,-118.0257,5,United States of America,California,Huntington Beach,0.00181107,30 arc-sec,16
+6393,CE.14828,33.939,-118.0989,30,United States of America,California,Downey,0,30 arc-sec,12
+6394,CE.14830,33.8465,-118.107,1,United States of America,California,Lakewood,0.00161987,30 arc-sec,16
+6395,CE.14840,33.9464,-118.001,85,United States of America,California,Whittier,0.0265418,30 arc-sec,4
+6396,CE.14936,33.8337,-118.1608,29,United States of America,California,Lakewood,0.00229878,30 arc-sec,16
+6397,CE.14937,33.9051,-118.0113,39,United States of America,California,La Mirada,0.0120647,30 arc-sec,16
+6398,CE.23049,34.1252,-117.7773,395,United States of America,California,La Verne,0.0242478,30 arc-sec,3
+6399,CE.23056,34.0649,-117.893,150,United States of America,California,West Covina,0.018236,30 arc-sec,8
+6400,CE.23057,34.043,-117.9118,171,United States of America,California,West Covina,0.0431062,30 arc-sec,16
+6401,CE.23075,34.0464,-117.0352,828,United States of America,California,Yucaipa,0.0314597,30 arc-sec,3
+6402,CE.23077,34.0574,-117.6979,283,United States of America,California,Montclair,0.0172628,30 arc-sec,8
+6403,CE.23089,34.1125,-117.6806,439,United States of America,California,Upland,0.0381138,30 arc-sec,4
+6404,CE.23090,34.1339,-117.6627,538,United States of America,California,Rancho Cucmonga,0.0451458,30 arc-sec,2
+6405,CE.23138,34.1247,-117.454,427,United States of America,California,Fontana,0.0223063,30 arc-sec,4
+6406,CE.23163,34.1229,-117.5397,397,United States of America,California,Rancho Cucamonga,0.024352,30 arc-sec,4
+6407,CE.23164,34.0262,-117.1553,559,United States of America,California,Redlands,0.0498057,30 arc-sec,8
+6408,CE.23169,34.074,-117.183,415,United States of America,California,Redlands,0.0112293,30 arc-sec,8
+6409,CE.23173,34.0018,-117.8142,305,United States of America,California,Diamond Bar,0.0315459,30 arc-sec,3
+6410,CE.23178,34.1321,-117.911,182,United States of America,California,Azusa,0.011187,30 arc-sec,4
+6411,CE.23836,34.1136,-117.851,225,United States of America,California,Glendora,0.0403873,30 arc-sec,3
+6412,CE.23837,34.0625,-117.785,248,United States of America,California,Pomona,0.0048671,30 arc-sec,7
+6413,CE.23842,33.9998,-117.9355,128,United States of America,California,City of Industry,0.0315886,30 arc-sec,12
+6414,CE.23843,34.0363,-117.9513,93,United States of America,California,La Puente,0.00446894,30 arc-sec,16
+6415,CE.23920,34.0035,-117.0588,717,United States of America,California,Calimesa,0.0237527,30 arc-sec,7
+6416,CE.23938,34.0209,-117.8658,170,United States of America,California,Walnut,0.0224732,30 arc-sec,3
+6417,CE.23939,34.1211,-117.738,385,United States of America,California,Claremont,0.0397492,30 arc-sec,2
+6418,CE.23940,34.0957,-117.7452,328,United States of America,California,Pomona,0.0218549,30 arc-sec,4
+6419,CE.24841,34.0014,-118.0783,52,United States of America,California,Pico Rivera,0.00296362,30 arc-sec,8
+6484,Corona,33.88171,-117.54912,241,United States of America,California,Corona,0.0212307,30 arc-sec,16
+6738,La Cienega Vertical Array,34.03714,-118.37777,29,United States of America,California,NULL,0.00775219,30 arc-sec,4
+6739,Baldwin Hills,34.00766,-118.36506,134,United States of America,California,NULL,0.0234026,30 arc-sec,7
+6740,Brentwood VA,34.06419,-118.46547,147,United States of America,California,NULL,0.0274437,30 arc-sec,3
+6741,Griffith Observatory,34.11872,-118.30062,265,United States of America,California,NULL,0.0861381,30 arc-sec,12
+6742,Tarzana El Caballero Golf Course 1,34.15357,-118.5363,304,United States of America,California,NULL,0.0224586,30 arc-sec,8
+6743,Tarzana El Caballero Golf Course 2,34.16132,-118.53103,265,United States of America,California,NULL,0.0366187,30 arc-sec,12
+6744,UCLA Array BH,34.06839,-118.44325,120,United States of America,California,NULL,0.0290337,30 arc-sec,4
+6745,UCLA Array BOT,34.06712,-118.44209,120,United States of America,California,NULL,0.0290337,30 arc-sec,4
+6746,UCLA Array PS2,34.06783,-118.44049,121,United States of America,California,NULL,0.0206952,30 arc-sec,4
+6747,UCLA Array DK,34.07255,-118.44055,121,United States of America,California,NULL,0.0206952,30 arc-sec,4
