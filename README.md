@@ -12,7 +12,7 @@ The framework integrates geological attributes and local spatial information to 
 
 - **Multi-source observations:** 658 geotechnical $V_S$ profiles from the Web Portal Shear-Wave Velocity Profile Database (VPDB) and 33 deeper sonic-log profiles.
 - **Reference-model correction:** Model $\ln(V_S)-\ln(V_S^{\mathrm{CVM}})$ relative to **CVM-S4.26**, so weakly constrained predictions revert toward the regional model.
-- **Composite covariance:** Combine a geological/basin-aware stationary kernel with a localized **3D anisotropic Matérn-$5/2$** kernel.
+- **Composite covariance:** Combine a geological/basin-aware stationary kernel with a localized **3D anisotropic Matérn-5/2** kernel.
 - **Two-stage optimization:** Fit the stationary component first, freeze it, then optimize the spatial component using group-held-out predictive likelihoods.
 - **Profile-level evaluation:** Hold out complete velocity profiles to test generalization at new locations, instead of randomly withholding depth samples from the same profiles.
 - **Regional applications:** Compare site profiles and six cross-sections, and produce a continuous $V_{S30}$ map across the Los Angeles Basin.
