@@ -180,7 +180,6 @@ The manuscript compares these predictions with the California $V_{S30}$ model of
     └── Figure/
 ```
 
-The original directory names are preserved, including `Appliction_cross_sections` and `Model_trainning_*`.
 
 ## Environment and Installation
 
