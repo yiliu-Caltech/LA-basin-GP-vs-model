@@ -122,21 +122,16 @@ A **5% profile-level test set** was constructed by withholding all measurements 
 
 The manuscript reports prediction errors approximately centered around zero over the sampled depth and $V_{S30}$ ranges, with larger near-surface dispersion reflecting unresolved shallow heterogeneity.
 
-![Residual error versus depth](Data/Figure/residual_depth.png)
-
-![Residual error versus Vs30](Data/Figure/residual_vs30.png)
 
 ### Individual site predictions
 
 The site-scale notebooks compare GP-corrected profiles against the original CVM-S4.26 prediction and other available reference profiles. The manuscript also discusses posterior prediction intervals to convey uncertainty.
 
-![Predicted site velocity profile](Data/Figure/point1.png)
 
 ### Six geological cross-sections
 
 The paper evaluates **six sections** across different basin settings. For each section, its reported prediction grid uses **100 horizontal sample points** and **5 m vertical increments down to 500 m**. The GP results are compared with CVM-S4.26 and a Geotechnical Layer Model (GTL). The analysis emphasizes shallow low-velocity layers, smoother spatial continuity, and preservation of deeper basin trends.
 
-![Cross-section velocity comparison](Data/Figure/Cross_sections_1_.png)
 
 ### Regional $V_{S30}$ mapping
 
