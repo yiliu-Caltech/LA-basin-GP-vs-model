@@ -32,9 +32,6 @@ The goal of this work is to preserve the physically meaningful, basin-scale stru
 | **CVM-S4.26** | Regional 3D model | Provide baseline $V_P$, $V_S$, density, and reference $V_S$ estimates |
 | Basin and surface attributes | Location-dependent | Provide basin identity, surface elevation, and $Z_{2.5}$ (depth to $V_S=2.5$ km/s) |
 
-The manuscript describes sonic-log preparation using a moving-median filter and a spline expansion with **100 basis functions**. Sonic logs primarily measure $V_P$; their estimated $V_S$ values are obtained using Poisson's ratio inferred from collocated CVM-S4.26 $V_P/V_S$ values. Spatial and geological predictors are normalized before GP fitting.
-
-![Locations and velocity-data preparation](Data/Figure/vs_data_cleaned.png)
 
 ## Model Formulation
 
