@@ -1,4 +1,4 @@
-# Gaussian Process Enhancement of Shallow Seismic Velocity Models in the Los Angeles Basin
+# Gaussian Process of Shallow Seismic Velocity Models in the Los Angeles Basin
 
 A research workflow for refining shallow subsurface shear-wave velocity (Vs) estimates in the Los Angeles Basin using Gaussian Process (GP) regression and existing velocity-model information from the **SCEC Unified Community Velocity Model (UCVM)** ecosystem.
 
