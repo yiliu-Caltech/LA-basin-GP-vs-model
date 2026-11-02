@@ -2,11 +2,11 @@
 
 **Gaussian-process refinement of near-surface shear-wave velocity in the Los Angeles Basin using CVM-S4.26 as a regional reference model.**
 
-This repository contains research notebooks, custom [GPyTorch](https://gpytorch.ai/) covariance kernels, model checkpoints, preprocessing utilities, and visualization workflows supporting the study **“A data-driven, multi-scale sediment velocity model for Southern California”** by Yi Liu, Grigorios Lavrentiadis, and Domniki Asimaki (manuscript dated October 15, 2026).
+This repository contains research notebooks, custom [GPyTorch](https://gpytorch.ai/) covariance kernels, model checkpoints, preprocessing utilities, and visualization workflows supporting the study **“A data-driven, multi-scale sediment velocity model for Southern California”** by Yi Liu, Grigorios Lavrentiadis, and Domniki Asimaki.
 
 The framework integrates geological attributes and local spatial information to estimate observational corrections to the regional Community Velocity Model (CVM), rather than replacing its large-scale structure. It supports predictions of individual shear-wave velocity profiles, two-dimensional geological cross-sections, and basin-wide $V_{S30}$.
 
-> **Research software:** This repository is a collection of experiment notebooks and supporting scripts, not a pip-installable package or a standalone UCVM distribution. The manuscript is provided as research context; its publication status and DOI have not been verified.
+> **Research software:** This repository is a collection of experiment notebooks and supporting scripts, not a pip-installable package or a standalone UCVM distribution. The manuscript is provided as research context.
 
 ## Highlights
 
